@@ -1,0 +1,7 @@
+alienRaces:
+  - delete: STR_SECTOdelete
+  - delete: STR_SNAKEMAN
+  - delete: STR_ETHEREAL
+  - delete: STR_MUTON
+  - delete: STR_FLOATER
+  - delete: STR_MIXED
