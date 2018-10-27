@@ -87,7 +87,7 @@ en-US:
   STR_OMNIGEL: ""
   STR_OMNIGEL_ARTICLE: ""
   STR_SMES_WEAPONS: "SMES Weapons"
-  STR_SMES_WEAPONS_ARTICLE: "Replacing bullets in regular Earth ammunition with superconducting toroid solenoids isn't hard. They shatter upon impact and release stored energy, up to 1 kg of TNT equivalent. The tricky part was converting all the energy of electromagnetic pulse into heat and kinetic energy of expanding gas. But we managed. Golden bulets would've been cheaper, though.{NEWLINE}More often than not, 1 kg of TNT per bullet is an overkill. We developed ammunition with several different yields.{NEWLINE}Be aware that while you ammo is more powerful, your weapons range and precision didn't change. We'll try to adapt alien rail weapons for new bullets."
+  STR_SMES_WEAPONS_ARTICLE: "Replacing bullets in regular Earth ammunition with superconducting toroid solenoids isn't hard. They shatter upon impact and release stored energy. The tricky part was converting all the energy of electromagnetic pulse into heat and kinetic energy of expanding gas. But we managed. Golden bulets would've been cheaper, though.{NEWLINE}More often than not, TNT equivalent of 1 kg per bullet is an overkill. We developed ammunition with several different yields.{NEWLINE}Be aware that while you ammo is more powerful, your weapons range and precision didn't change. We'll try to adapt alien rail weapons for new bullets."
   STR_SMES_RAIL_WEAPONS: "Hybrid SMES Weapons"
   STR_SMES_RAIL_WEAPONS_ARTICLE: "We've taught replicators of alien rail weapons to manufacture SMES bullets. This gives us higher precision and virtually unlimited ammo.  Although superior technology alows making more compact solenouds, they still are weaker than 14-mm SMES machineguns."
 
