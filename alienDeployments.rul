@@ -12,3 +12,4 @@ alienDeployments:
   - delete: STR_BASE_DEFENSE
   - delete: STR_MARS_CYDONIA_LANDING
   - delete: STR_MARS_THE_FINAL_ASSAULT
+

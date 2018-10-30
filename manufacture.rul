@@ -34,3 +34,4 @@ manufacture:
   - delete: STR_FIRESTORM
   - delete: STR_LIGHTNING
   - delete: STR_AVENGER
+

@@ -10,7 +10,7 @@ armors:
   - delete: CYBERDISC_ARMOR
   - delete: REAPER_ARMOR
   - delete: SECTOPOD_ARMOR
-  - delete: TANK_ARMOR
+  #- delete: TANK_ARMOR
   - delete: HOVERTANK_ARMOR
   #- delete: CIVM_ARMOR
   #- delete: CIVF_ARMOR

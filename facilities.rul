@@ -6,18 +6,13 @@ facilities:
   - delete: STR_MIND_SHIELD
   - delete: STR_PSIONIC_LABORATORY
   - delete: STR_HYPER_WAVE_DECODER
+
   - type: STR_SMALL_RADAR_SYSTEM
-    # radarRange: 1695
     radarRange: 10800
+    radarChance: 100  # temporary !!!!
+    hyper: true       # temporary !!!!
   - type: STR_LARGE_RADAR_SYSTEM
-    # radarRange: 2577
     radarRange: 10800
+    radarChance: 100  # temporary !!!!
     hyper: true
-  #- type: STR_ALIEN_CONTAINMENT
-  #  spriteShape: 1
-  #  spriteFacility: 25
-  #  buildCost: 400000
-  #  buildTime: 18
-  #  monthlyCost: 15000
-  #  aliens: 10
-  #  mapName: XBASE_08
+
