@@ -6,3 +6,123 @@ alienRaces:
   - delete: STR_FLOATER
   - delete: STR_MIXED
 
+#  - id: STR_
+#    members:
+#      - STR__COMMANDER
+#      - STR__LEADER
+#      - STR__ENGINEER
+#      - STR__MEDIC
+#      - STR__NAVIGATOR
+#      - STR__SOLDIER
+#      - STR__TERRORIST
+#      - STR__TERRORIST
+#  STR_BATARIAN: "4-eyed"
+#  STR_SALARIAN: "Horned"
+#  STR_VORCHA: "Spiky"
+#  STR_QUARIAN: "Hazmat"
+#  STR_ASARI: "Blue"
+#  STR_TURIAN: "Bird"
+#  STR_KROGAN: "Dino"
+#  STR_DRELL: "Lizard"
+
+#  - id: STR_BATARIAN
+#    members:
+#      - STR_BATARIAN_COMMANDER
+#      - STR_BATARIAN_LEADER
+#      - STR_BATARIAN_ENGINEER
+#      - STR_BATARIAN_MEDIC
+#      - STR_BATARIAN_NAVIGATOR
+#      - STR_BATARIAN_SOLDIER
+#      - STR_BATARIAN_TERRORIST
+#      - STR_BATARIAN_TERRORIST
+#  - id: STR_SALARIAN
+#    members:
+#      - STR_SALARIAN_COMMANDER
+#      - STR_SALARIAN_LEADER
+#      - STR_SALARIAN_ENGINEER
+#      - STR_SALARIAN_MEDIC
+#      - STR_SALARIAN_NAVIGATOR
+#      - STR_SALARIAN_SOLDIER
+#      - STR_SALARIAN_TERRORIST
+#      - STR_SALARIAN_TERRORIST
+#  - id: STR_VORCHA
+#    members:
+#      - STR_VORCHA_COMMANDER
+#      - STR_VORCHA_LEADER
+#      - STR_VORCHA_ENGINEER
+#      - STR_VORCHA_MEDIC
+#      - STR_VORCHA_NAVIGATOR
+#      - STR_VORCHA_SOLDIER
+#      - STR_VORCHA_TERRORIST
+#      - STR_VORCHA_TERRORIST
+#  - id: STR_QUARIAN
+#    members:
+#      - STR_QUARIAN_COMMANDER
+#      - STR_QUARIAN_LEADER
+#      - STR_QUARIAN_ENGINEER
+#      - STR_QUARIAN_MEDIC
+#      - STR_QUARIAN_NAVIGATOR
+#      - STR_QUARIAN_SOLDIER
+#      - STR_QUARIAN_TERRORIST
+#      - STR_QUARIAN_TERRORIST
+#  - id: STR_ASARI
+#    members:
+#      - STR_ASARI_COMMANDER
+#      - STR_ASARI_LEADER
+#      - STR_ASARI_ENGINEER
+#      - STR_ASARI_MEDIC
+#      - STR_ASARI_NAVIGATOR
+#      - STR_ASARI_SOLDIER
+#      - STR_ASARI_TERRORIST
+#      - STR_ASARI_TERRORIST
+#  - id: STR_TURIAN
+#    members:
+#      - STR_TURIAN_COMMANDER
+#      - STR_TURIAN_LEADER
+#      - STR_TURIAN_ENGINEER
+#      - STR_TURIAN_MEDIC
+#      - STR_TURIAN_NAVIGATOR
+#      - STR_TURIAN_SOLDIER
+#      - STR_TURIAN_TERRORIST
+#      - STR_TURIAN_TERRORIST
+#  - id: STR_KROGAN
+#    members:
+#      - STR_KROGAN_COMMANDER
+#      - STR_KROGAN_LEADER
+#      - STR_KROGAN_ENGINEER
+#      - STR_KROGAN_MEDIC
+#      - STR_KROGAN_NAVIGATOR
+#      - STR_KROGAN_SOLDIER
+#      - STR_KROGAN_TERRORIST
+#      - STR_KROGAN_TERRORIST
+#  - id: STR_DRELL
+#    members:
+#      - STR_DRELL_COMMANDER
+#      - STR_DRELL_LEADER
+#      - STR_DRELL_ENGINEER
+#      - STR_DRELL_MEDIC
+#      - STR_DRELL_NAVIGATOR
+#      - STR_DRELL_SOLDIER
+#      - STR_DRELL_TERRORIST
+#      - STR_DRELL_TERRORIST
+#  - id: STR_BLOOD_PACK
+#    members:
+#      - STR_KROGAN
+#      - STR_KROGAN
+#      - STR_VORCHA
+#      - STR_VORCHA
+#      - STR_KROGAN
+#      - STR_VORCHA
+#      - STR_VARREN
+#      - STR_VARREN
+#  - id: STR_
+#    members:
+#      - STR__COMMANDER
+#      - STR__LEADER
+#      - STR__ENGINEER
+#      - STR__MEDIC
+#      - STR__NAVIGATOR
+#      - STR__SOLDIER
+#      - STR__TERRORIST
+#      - STR__TERRORIST
+ 
