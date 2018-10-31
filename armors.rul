@@ -27,3 +27,129 @@ armors:
   - delete: ZOMBIE_ARMOR
   - delete: SILACOID_ARMOR
   - delete: CELATID_ARMOR
+
+  - type: VORCHA_ARMOR0
+    spriteSheet: VORCHA_PIC
+    corpseBattle:
+      - STR_VORCHA_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+    loftempsSet: [ 2 ]
+
+  - type: KROGAN_ARMOR0
+    spriteSheet: KROGAN_PIC
+    corpseBattle:
+      - STR_KROGAN_CORPSE
+    frontArmor: 50
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 50
+    damageModifier:
+      - 0.5
+      - 0.5
+      - 0.5
+      - 0.5
+      - 0.5
+      - 0.5
+      - 0.5
+      - 0.5
+      - 0.5
+      - 2.0
+    loftempsSet: [ 2 ]
+
+  - type: BATARIAN_ARMOR0
+    spriteSheet: BATARIAN_PIC
+    corpseBattle:
+      - STR_BATARIAN_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 2.0
+    loftempsSet: [ 2 ]
+
+  - type: SALARIAN_ARMOR0
+    spriteSheet: SALARIAN_PIC
+    corpseBattle:
+      - STR_SALARIAN_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 2.0
+    loftempsSet: [ 2 ]
+
+  - type: ASARI_ARMOR0
+    spriteSheet: ASARI_PIC
+    corpseBattle:
+      - STR_ASARI_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 2.0
+    loftempsSet: [ 2 ]
+
+  - type: TURIAN_ARMOR0
+    spriteSheet: TURIAN_PIC
+    corpseBattle:
+      - STR_TURIAN_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.7
+      - 2.0
+    loftempsSet: [ 2 ]
