@@ -104,6 +104,81 @@ items:
   - delete: STR_CYBERDISC_TERRORIST
   #- delete: ALIEN_PSI_WEAPON
 
+  - type: STR_ALIEN_PISTOL # =PLASMA_PISTOL
+    requires:             
+      - STR_AGUNS
+    size: 0.1               
+    costSell: 60000        
+    weight: 3             
+    bigSprite: 32        
+    floorSprite: 31     
+    handSprite: 104    
+    bulletSprite: 8 # !!!! 
+    fireSound: 18   
+    hitSound: 19 # !!!!  
+    #hitAnimation: 36    
+    power: 52           
+    damageType: 1        
+    tuAuto: 30 
+    accuracyAuto: 50  
+    tuSnap: 30 
+    accuracySnap: 65 
+    tuAimed: 60 
+    accuracyAimed: 85 
+    tuMelee: 10        
+    accuracyMelee: 50  
+    clipSize: -1       
+    battleType: 1      
+    invWidth: 1      
+    invHeight: 2    
+    recoveryPoints: 3 
+    armor: 45        
+    #bulletSpeed: 10 
+    autoShots: 3  
+    #meleeSound:  
+    #meleeHitSound:
+    #meleeAnimation: 
+    #meleePower:                                  
+
+  - type: STR_ALIEN_ASSAULT_RIFLE # =PLASMA_RIFLE
+    requires:
+      - STR_AGUNS
+    size: 0.2                                             
+    costSell: 100000                       
+    weight: 5                              
+    bigSprite: 31                          
+    floorSprite: 30                        
+    handSprite: 48                         
+    bulletSprite: 8                        
+    fireSound: 18                          
+    #hitSound: !!!!                        
+    power: 80
+    damageType: 1   
+    tuAuto: 36 
+    accuracyAuto: 55                      
+    tuSnap: 30 
+    accuracySnap: 86    
+    tuAimed: 60
+    accuracyAimed: 100                           
+    tuMelee: 10      
+    accuracyMelee: 50
+    tuAimed: 60       
+    tuMelee: 10         
+    accuracyMelee: 50  
+    clipSize: -1       
+    battleType: 1    
+    twoHanded: true 
+    invWidth: 1    
+    invHeight: 3                           
+    recoveryPoints: 5                      
+    armor: 50                         
+    #bulletSpeed: 10 
+    autoShots: 3  
+    #meleeSound:  
+    #meleeHitSound:
+    #meleeAnimation: 
+    #meleePower:                    
+
   - type: STR_ALIEN_SHOTGUN # =HEAVY_PLASMA
     requires:
     #  - STR_ALIEN_SHOTGUN
@@ -128,7 +203,7 @@ items:
     twoHanded: true
     invWidth: 2
     invHeight: 3
-    recoveryPoints: 5
+    recoveryPoints: 8
     armor: 50
     #bulletSpeed: 10
     #autoShots: 10
@@ -137,70 +212,6 @@ items:
     #meleeHitSound:
     #meleeAnimation:
     #meleePower:
-
-  - type: STR_ALIEN_ASSAULT_RIFLE # =PLASMA_RIFLE
-    #requires:
-    #  - STR_ALIEN_ASSAULT_RIFLE
-      - STR_AGUNS
-    size: 0.2
-    costSell: 100000
-    weight: 5
-    bigSprite: 31
-    floorSprite: 30
-    handSprite: 48
-    bulletSprite: 8
-    fireSound: 18
-    #hitSound: !!!!
-    accuracyAuto: 55
-    accuracySnap: 86
-    accuracyAimed: 100
-    tuAuto: 36
-    tuSnap: 30
-    tuAimed: 60
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    recoveryPoints: 4
-    armor: 50
-    damageType: 1
-    clipSize: -1
-
-  - type: STR_ALIEN_PISTOL # =PLASMA_PISTOL
-    requires:             
-      - STR_AGUNS
-    size: 0.1                  size: 0.2              
-    costSell: 60000            costSell: 160000       
-    weight: 3                  weight: 8              
-    bigSprite: 32              bigSprite: 0           
-    floorSprite: 31            floorSprite: 0         
-    handSprite: 104            handSprite: 8          
-    bulletSprite: 8            bulletSprite: 6 # !!!! 
-    fireSound: 18              fireSound: 11
-    hitSound: 19 # !!!!  
-    #hitAnimation: 36    
-    power: 52           
-    damageType: 1        
-    tuAuto: 30 
-    accuracyAuto: 50  
-    tuSnap: 30 
-    accuracySnap: 65 
-    tuAimed: 60 
-    accuracyAimed: 85 
-    tuMelee: 10        
-    accuracyMelee: 50  
-    clipSize: -1       
-    battleType: 1      
-    invWidth: 1      
-    invHeight: 2    
-    recoveryPoints: 3 
-    armor: 45        
-    #bulletSpeed: 10 
-    #autoShots: 10  
-    #meleeSound:  
-    #meleeHitSound:
-    #meleeAnimation: 
-    #meleePower:    
 
   - type: STR_ALIEN_SNIPER_RIFLE # =LASER_RIFLE
     requires:              
@@ -230,7 +241,7 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3                         
-    recoveryPoints: 6                    
+    recoveryPoints: 8                    
     armor: 50                            
     #bulletSpeed: 10                                       
     #autoShots: 10                                         
@@ -240,117 +251,3 @@ items:
     #meleeAnimation:  
     #meleePower:     
 
-  - type: STR_ALIEN_SHOTGUN # =HEAVY_PLASMA
-    requires:
-    #  - STR_ALIEN_SHOTGUN
-      - STR_AGUNS
-    size: 0.2
-    costSell: 160000
-    weight: 8
-    bigSprite: 30
-    floorSprite: 29
-    handSprite: 40
-    bulletSprite: 8  # !!!!
-    fireSound: 18
-    #hitSound: !!!!
-    power: 115
-    damageType: 1
-    tuAuto: 35
-    accuracyAuto: 50
-    tuMelee: 10
-    accuracyMelee: 50
-    clipSize: -1
-    battleType: 1
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 5
-    armor: 50
-    #bulletSpeed: 10
-    #autoShots: 10
-    shotgunPellets: 10
-    #meleeSound:
-    #meleeHitSound:
-    #meleeAnimation:
-    #meleePower:
-
-  - type: STR_ALIEN_ASSAULT_RIFLE # =PLASMA_RIFLE
-    #requires:
-    #  - STR_ALIEN_ASSAULT_RIFLE
-      - STR_AGUNS
-    size: 0.2
-    costSell: 100000
-    weight: 5
-    bigSprite: 31
-    floorSprite: 30
-    handSprite: 48
-    bulletSprite: 8
-    fireSound: 18
-    #hitSound: !!!!
-    accuracyAuto: 55
-    accuracySnap: 86
-    accuracyAimed: 100
-    tuAuto: 36
-    tuSnap: 30
-    tuAimed: 60
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    recoveryPoints: 4
-    armor: 50
-    damageType: 1
-    clipSize: -1
-
-  - type: STR_ALIEN_PISTOL # =PLASMA_PISTOL
-    #requires:
-    #  - STR_PLASMA_PISTOL
-      - STR_AGUNS
-    size: 0.1
-    costSell: 60000
-    weight: 3
-    bigSprite: 32
-    floorSprite: 31
-    handSprite: 104
-    bulletSprite: 8
-    fireSound: 18
-    accuracyAuto: 50
-    accuracySnap: 65
-    accuracyAimed: 85
-    tuAuto: 30
-    tuSnap: 30
-    tuAimed: 60
-    battleType: 1
-    invWidth: 1
-    invHeight: 2
-    recoveryPoints: 3
-    armor: 45
-    damageType: 1
-    clipSize: -1
-
-  - type: STR_ALIEN_SNIPER_RIFLE # =LASER_RIFLE
-    size: 0.2
-    costSell: 36900
-    weight: 8
-    bigSprite: 0
-    floorSprite: 0
-    handSprite: 8
-    bulletSprite: 6
-    fireSound: 11
-    hitSound: 19
-    hitAnimation: 36
-    power: 60
-    damageType: 1
-    accuracyAuto: 46
-    accuracySnap: 65
-    accuracyAimed: 200
-    tuAuto: 99
-    tuSnap: 50
-    tuAimed: 80
-    clipSize: -1
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    recoveryPoints: 6
-    armor: 50

@@ -30,48 +30,52 @@ armors:
 
   - type: VORCHA_ARMOR0
     spriteSheet: VORCHA_PIC
+    spriteInv: VORCHA_INV
+    # spriteFaceGroup, spriteFaceColor, spriteHairGroup, spriteHairColor, spriteUtileGroup, spriteUtileColor, spriteRankGroup, spriteRankColor
     corpseBattle:
       - STR_VORCHA_CORPSE
     frontArmor: 4
-    sideArmor: 3
-    rearArmor: 2
+    sideArmor:  3
+    rearArmor:  2
     underArmor: 2
     damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.2
-      - 1.6
-      - 0.0
-    loftempsSet: [ 2 ]
+      - 1.0 #None
+      - 1.0 #AP
+      - 1.0 #Incen
+      - 1.0 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 0.5 #Acid
+      - 0.1 #Smoke
+    loftempsSet: [ 3 ]
 
   - type: KROGAN_ARMOR0
     spriteSheet: KROGAN_PIC
+    spriteInv: KROGAN_INV
     corpseBattle:
       - STR_KROGAN_CORPSE
     frontArmor: 50
-    sideArmor: 50
-    rearArmor: 50
+    sideArmor:  50
+    rearArmor:  50
     underArmor: 50
     damageModifier:
-      - 0.5
-      - 0.5
-      - 0.5
-      - 0.5
-      - 0.5
-      - 0.5
-      - 0.5
-      - 0.5
-      - 0.5
-      - 2.0
-    loftempsSet: [ 2 ]
+      - 1.0 #None
+      - 0.5 #AP
+      - 0.5 #Incen
+      - 0.5 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.5 #Stun
+      - 0.5 #Melee
+      - 0.5 #Acid
+      - 0.0 #Smoke
+    loftempsSet: [ 6 ]
 
   - type: BATARIAN_ARMOR0
     spriteSheet: BATARIAN_PIC
+    spriteInv: BATARIAN_INV
     corpseBattle:
       - STR_BATARIAN_CORPSE
     frontArmor: 20
@@ -79,20 +83,11 @@ armors:
     rearArmor: 20
     underArmor: 20
     damageModifier:
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 2.0
-    loftempsSet: [ 2 ]
+    loftempsSet: [ 4 ]
 
   - type: SALARIAN_ARMOR0
     spriteSheet: SALARIAN_PIC
+    spriteInv: SALARIAN_INV
     corpseBattle:
       - STR_SALARIAN_CORPSE
     frontArmor: 20
@@ -100,20 +95,21 @@ armors:
     rearArmor: 20
     underArmor: 20
     damageModifier:
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 2.0
-    loftempsSet: [ 2 ]
+      - 1.0 #None
+      - 0.5 #AP
+      - 0.5 #Incen
+      - 0.5 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.5 #Stun
+      - 0.5 #Melee
+      - 0.5 #Acid
+      - 0.0 #Smoke
+    loftempsSet: [ 3 ]
 
   - type: ASARI_ARMOR0
     spriteSheet: ASARI_PIC
+    spriteInv: ASARI_INV
     corpseBattle:
       - STR_ASARI_CORPSE
     frontArmor: 20
@@ -121,20 +117,21 @@ armors:
     rearArmor: 20
     underArmor: 20
     damageModifier:
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 2.0
-    loftempsSet: [ 2 ]
+      - 1.0 #None
+      - 0.5 #AP
+      - 0.5 #Incen
+      - 0.5 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.5 #Stun
+      - 0.5 #Melee
+      - 0.5 #Acid
+      - 0.0 #Smoke
+    loftempsSet: [ 4 ]
 
   - type: TURIAN_ARMOR0
     spriteSheet: TURIAN_PIC
+    spriteInv: TURIAN_INV
     corpseBattle:
       - STR_TURIAN_CORPSE
     frontArmor: 20
@@ -142,14 +139,60 @@ armors:
     rearArmor: 20
     underArmor: 20
     damageModifier:
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 0.7
-      - 2.0
-    loftempsSet: [ 2 ]
+      - 1.0 #None
+      - 0.5 #AP
+      - 0.5 #Incen
+      - 0.5 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.5 #Stun
+      - 0.5 #Melee
+      - 0.5 #Acid
+      - 0.0 #Smoke
+    loftempsSet: [ 4 ]
+
+
+  - type: DRELL_ARMOR0
+    spriteSheet: DRELL_PIC
+    spriteInv: DRELL_INV
+    corpseBattle:
+      - STR_DRELL_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 0.5 #AP
+      - 0.5 #Incen
+      - 0.5 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.5 #Stun
+      - 0.5 #Melee
+      - 0.5 #Acid
+      - 0.0 #Smoke
+    loftempsSet: [ 4 ]
+
+  - type: QUARIAN_ARMOR0
+    spriteSheet: QUARIAN_PIC
+    spriteInv: QUARIAN_INV
+    corpseBattle:
+      - STR_QUARIAN_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 0.5 #AP
+      - 0.5 #Incen
+      - 0.5 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.5 #Stun
+      - 0.5 #Melee
+      - 0.5 #Acid
+      - 0.0 #Smoke
+    loftempsSet: [ 4 ]
+

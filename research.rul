@@ -138,4 +138,73 @@ research:
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
 
+  - name: STR_AGUNS
+    #lookup: 
+    cost: 1
+    #points: 
+    #needItem
+    #destroyItem
+    dependencies:
+      - STR_ALIEN_PISTOL
+      - STR_ALIEN_ASSAULT_RIFLE
+      - STR_ALIEN_SHOTGUN
+      - STR_ALIEN_SNIPER_RIFLE
+    #unlocks:
+    #requires:
+    #getOneFree:
+    #unlockFinalMission:
+    #cutscene:
 
+  - name: STR_ALIEN_PISTOL
+    #lookup: 
+    cost: 1
+    #points: 
+    needItem: true
+    #destroyItem
+    #dependencies:
+    unlocks: [STR_AGUNS]
+    #requires:
+    getOneFree: [STR_AGUNS]
+    #unlockFinalMission:
+    #cutscene:
+
+  - name: STR_ALIEN_ASSAULT_RIFLE
+    #lookup: 
+    cost: 1
+    #points: 
+    needItem: true
+    #destroyItem
+    #dependencies:
+    unlocks: [STR_AGUNS]
+    #requires:
+    getOneFree: [STR_AGUNS]
+    #unlockFinalMission:
+    #cutscene:
+
+  - name: STR_ALIEN_SHOTGUN
+    #lookup: 
+    cost: 1
+    #points: 
+    needItem: true
+    #destroyItem
+    #dependencies:
+    unlocks: [STR_AGUNS]
+    #requires:
+    getOneFree: [STR_AGUNS]
+    #unlockFinalMission:
+    #cutscene:
+
+  - name: STR_ALIEN_SNIPER_RIFLE
+    #lookup: 
+    cost: 1
+    #points: 
+    needItem: true
+    #destroyItem
+    #dependencies:
+    unlocks: [STR_AGUNS]
+    #requires:
+    getOneFree: [STR_AGUNS]
+    #unlockFinalMission:
+    #cutscene:
+
+  

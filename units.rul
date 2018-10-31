@@ -72,8 +72,8 @@ units:
       psiSkill: 0
       melee: 100
     armor: KROGAN_ARMOR0
-    standHeight: 27
-    kneelHeight: 18
+    standHeight: 25
+    kneelHeight: 16
     value: 10
     deathSound: 10
     intelligence: 3
