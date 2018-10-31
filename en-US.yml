@@ -108,3 +108,5 @@ en-US:
   STR_INFILTRATION_ARTICLE: "Aliens occasionally send disguised Blue infiltrators to strike some deals with humans. Of greatest importance to us are bribes to ensure the shutdown of X-COM. If an infiltrator succeeds, you get a high negative rating in the corresponding state and the funding decreases accordingly.{NEWLINE}Worst thing is: when someone gives us an unreasonably low rating, we can never tell if he's an alien agent or just an anally retentive bean counter. Shooting the latter damages our credibility even further."
   STR_RETALIATION: "Alien Retaliation"
   STR_RETALIATION_ARTICLE: "When aliens grow sick and tired of our flea bites, they may decide to solve the problem at the root. They track down our base and storm it."
+  STR_BLOOD_PACK: "Carnage Troop"
+  STR_BLOOD_PACK_ARTICLE: "'Carnage Troop' is a blanket term for loosely associated pirate and mercenary gangs of Dinos and Spikies. The more accurare translation would be 'bloodthirsty herd', implying a certain feral omnivore from Dinos' native planet.{NEWLINE}"
