@@ -5,6 +5,66 @@ alienRaces:
   - delete: STR_MUTON
   - delete: STR_FLOATER
   - delete: STR_MIXED
+  - id: STR_VORCHA
+    members:
+      - STR_VORCHA # _COMMANDER
+      - STR_VORCHA # _LEADER
+      - STR_VORCHA # _ENGINEER
+      - STR_VORCHA # _MEDIC
+      - STR_VORCHA # _NAVIGATOR
+      - STR_VORCHA # _SOLDIER
+      - STR_VORCHA # _TERRORIST
+      - STR_VORCHA # _TERRORIST
+  - id: STR_BLOOD_PACK
+    members:
+      - STR_KROGAN  # _BATTLEMASTER
+      - STR_KROGAN
+      - STR_VORCHA
+      - STR_VORCHA
+      - STR_KROGAN
+      - STR_VORCHA
+      - STR_VARREN
+      - STR_VARREN
+  - id: STR_HU
+    members:
+      - STR_TURIAN   # _COMMANDER
+      - STR_ASARI    # _MANAGER
+      - STR_SALARIAN # _ENGINEER
+      - STR_BATARIAN # _MEDIC
+      - STR_ASARI    # _SCIENTIST
+      - STR_SALARIAN # _SCIENTIST
+      - STR_SALARIAN # _TECHNICIAN
+      - STR_SALARIAN # _TECHNICIAN
+  - id: STR_PMC
+    members:
+      - STR_TURIAN   # _COMMANDER
+      - STR_SALARIAN # _LEADER
+      - STR_TURIAN   # _ENGINEER
+      - STR_BATARIAN # _MEDIC
+      - STR_TURIAN   # _NAVIGATOR
+      - STR_BATARIAN # _SOLDIER
+      - ""
+      - ""
+  - id: STR_DRELL
+    members:
+      - STR_DRELL # _COMMANDER
+      - STR_DRELL # _LEADER
+      - STR_DRELL # _ENGINEER
+      - STR_DRELL # _MEDIC
+      - STR_DRELL # _NAVIGATOR
+      - STR_DRELL # _SOLDIER
+      - STR_DRELL # _TERRORIST
+      - STR_DRELL # _TERRORIST
+  - id: STR_QUARIAN
+    members:
+      - STR_QUARIAN # _COMMANDER
+      - STR_QUARIAN # _LEADER
+      - STR_QUARIAN # _ENGINEER
+      - STR_QUARIAN # _MEDIC
+      - STR_QUARIAN # _NAVIGATOR
+      - STR_QUARIAN # _SOLDIER
+      - STR_TURETTE # _TERRORIST
+      - STR_TURETTE # _TERRORIST
 
 #  - id: STR_
 #    members:
@@ -105,16 +165,6 @@ alienRaces:
 #      - STR_DRELL_SOLDIER
 #      - STR_DRELL_TERRORIST
 #      - STR_DRELL_TERRORIST
-#  - id: STR_BLOOD_PACK
-#    members:
-#      - STR_KROGAN
-#      - STR_KROGAN
-#      - STR_VORCHA
-#      - STR_VORCHA
-#      - STR_KROGAN
-#      - STR_VORCHA
-#      - STR_VARREN
-#      - STR_VARREN
 #  - id: STR_
 #    members:
 #      - STR__COMMANDER
@@ -125,4 +175,3 @@ alienRaces:
 #      - STR__SOLDIER
 #      - STR__TERRORIST
 #      - STR__TERRORIST
- 
