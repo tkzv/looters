@@ -24,7 +24,7 @@ items:
   - delete: STR_SMALL_LAUNCHER
   - delete: STR_STUN_BOMB
   - delete: STR_ALIEN_GRENADE
-  - delete: STR_ELERIUM_115
+  #- delete: STR_ELERIUM_115
   - delete: STR_MIND_PROBE
   - delete: STR_SECTOID_CORPSE
   - delete: STR_SNAKEMAN_CORPSE
@@ -103,82 +103,82 @@ items:
   - delete: STR_SECTOPOD_TERRORIST
   - delete: STR_CYBERDISC_TERRORIST
   #- delete: ALIEN_PSI_WEAPON
+  - delete: STR_MEDI_KIT
 
+# Alien Weapons
   - type: STR_ALIEN_PISTOL # =PLASMA_PISTOL
-    requires:             
+    requires:
       - STR_AGUNS
-    size: 0.1               
-    costSell: 60000        
-    weight: 3             
-    bigSprite: 32        
-    floorSprite: 31     
-    handSprite: 104    
-    bulletSprite: 8 # !!!! 
-    fireSound: 18   
-    hitSound: 19 # !!!!  
-    #hitAnimation: 36    
-    power: 52           
-    damageType: 1        
-    tuAuto: 30 
-    accuracyAuto: 50  
-    tuSnap: 30 
-    accuracySnap: 65 
-    tuAimed: 60 
-    accuracyAimed: 85 
-    tuMelee: 10        
-    accuracyMelee: 50  
-    clipSize: -1       
-    battleType: 1      
-    invWidth: 1      
-    invHeight: 2    
-    recoveryPoints: 3 
-    armor: 45        
-    #bulletSpeed: 10 
-    autoShots: 3  
-    #meleeSound:  
+    size: 0.1
+    costSell: 60000
+    weight: 3
+    bigSprite: 32
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 8 # !!!!
+    fireSound: 18
+    hitSound: 19 # !!!!
+    #hitAnimation: 36
+    power: 52
+    damageType: 1
+    tuAuto: 30
+    accuracyAuto: 50
+    tuSnap: 30
+    accuracySnap: 65
+    tuAimed: 60
+    accuracyAimed: 85
+    tuMelee: 10
+    accuracyMelee: 50
+    clipSize: -1
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    armor: 45
+    #bulletSpeed: 10
+    autoShots: 3
+    #meleeSound:
     #meleeHitSound:
-    #meleeAnimation: 
-    #meleePower:                                  
-
+    #meleeAnimation:
+    #meleePower:
   - type: STR_ALIEN_ASSAULT_RIFLE # =PLASMA_RIFLE
     requires:
       - STR_AGUNS
-    size: 0.2                                             
-    costSell: 100000                       
-    weight: 5                              
-    bigSprite: 31                          
-    floorSprite: 30                        
-    handSprite: 48                         
-    bulletSprite: 8                        
-    fireSound: 18                          
-    #hitSound: !!!!                        
+    size: 0.2
+    costSell: 100000
+    weight: 5
+    bigSprite: 31
+    floorSprite: 30
+    handSprite: 48
+    bulletSprite: 8
+    fireSound: 18
+    #hitSound: !!!!
     power: 80
-    damageType: 1   
-    tuAuto: 36 
-    accuracyAuto: 55                      
-    tuSnap: 30 
-    accuracySnap: 86    
+    damageType: 1
+    tuAuto: 36
+    accuracyAuto: 55
+    tuSnap: 30
+    accuracySnap: 86
     tuAimed: 60
-    accuracyAimed: 100                           
-    tuMelee: 10      
+    accuracyAimed: 100
+    tuMelee: 10
     accuracyMelee: 50
-    tuAimed: 60       
-    tuMelee: 10         
-    accuracyMelee: 50  
-    clipSize: -1       
-    battleType: 1    
-    twoHanded: true 
-    invWidth: 1    
-    invHeight: 3                           
-    recoveryPoints: 5                      
-    armor: 50                         
-    #bulletSpeed: 10 
-    autoShots: 3  
-    #meleeSound:  
+    tuAimed: 60
+    tuMelee: 10
+    accuracyMelee: 50
+    clipSize: -1
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 50
+    #bulletSpeed: 10
+    autoShots: 3
+    #meleeSound:
     #meleeHitSound:
-    #meleeAnimation: 
-    #meleePower:                    
-
+    #meleeAnimation:
+    #meleePower:
   - type: STR_ALIEN_SHOTGUN # =HEAVY_PLASMA
     requires:
     #  - STR_ALIEN_SHOTGUN
@@ -212,10 +212,9 @@ items:
     #meleeHitSound:
     #meleeAnimation:
     #meleePower:
-
   - type: STR_ALIEN_SNIPER_RIFLE # =LASER_RIFLE
-    requires:              
-      - STR_AGUNS          
+    requires:
+      - STR_AGUNS
     size: 0.2
     costSell: 160000
     weight: 8
@@ -224,30 +223,120 @@ items:
     handSprite: 8
     bulletSprite: 6 # !!!!
     fireSound: 11
-    hitSound: 19 # !!!!        
+    hitSound: 19 # !!!!
     #hitAnimation: 36
     power: 200
     damageType: 1
-    tuAuto: 99             
+    tuAuto: 99
     accuracyAuto: 46
     tuSnap: 50
     accuracySnap: 65
-    tuAimed: 80           
+    tuAimed: 80
     accuracyAimed: 200
-    tuMelee: 10 
-    accuracyMelee: 50      
+    tuMelee: 10
+    accuracyMelee: 50
     clipSize: -1
     battleType: 1
     twoHanded: true
     invWidth: 1
-    invHeight: 3                         
-    recoveryPoints: 8                    
-    armor: 50                            
-    #bulletSpeed: 10                                       
-    #autoShots: 10                                         
-    shotgunPellets: 10                                     
-    #meleeSound:                                           
-    #meleeHitSound:   
-    #meleeAnimation:  
-    #meleePower:     
+    invHeight: 3
+    recoveryPoints: 8
+    armor: 50
+    #bulletSpeed: 10
+    #autoShots: 10
+    shotgunPellets: 10
+    #meleeSound:
+    #meleeHitSound:
+    #meleeAnimation:
+    #meleePower:
+
+# Corpses
+  - type: STR_VORCHA_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 22
+    bigSprite: 45    #!!!!
+    floorSprite: 39  #!!!!
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 11
+    recover: true
+    armor: 20
+  - type: STR_KROGAN_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 88
+    bigSprite: 45    #!!!!
+    floorSprite: 39  #!!!!
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 11
+    recover: true
+    armor: 50
+  - type: STR_BATARIAN_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 44
+    bigSprite: 45    #!!!!
+    floorSprite: 39  #!!!!
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 11
+    recover: true
+    armor: 40
+  - type: STR_SALARIAN_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 33
+    bigSprite: 45    #!!!!
+    floorSprite: 39  #!!!!
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 11
+    recover: true
+    armor: 40
+  - type: STR_ASARI_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 44
+    bigSprite: 45    #!!!!
+    floorSprite: 39  #!!!!
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 11
+    recover: true
+    armor: 40
+  - type: STR_TURIAN_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 44
+    bigSprite: 45    #!!!!
+    floorSprite: 39  #!!!!
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 11
+    recover: true
+    armor: 40
+  - type: STR_DRELL_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 44
+    bigSprite: 45    #!!!!
+    floorSprite: 39  #!!!!
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 11
+    recover: true
+    armor: 40
+  - type: STR_QUARIAN_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 44
+    bigSprite: 45    #!!!!
+    floorSprite: 39  #!!!!
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 11
+    recover: true
+    armor: 40
 

@@ -13,3 +13,174 @@ alienDeployments:
   - delete: STR_MARS_CYDONIA_LANDING
   - delete: STR_MARS_THE_FINAL_ASSAULT
 
+  - type: STR_SCANNER
+    #alert
+    #markerName
+    #markerIcon
+    #briefing
+    width:  80
+    length: 80
+    height: 8
+    #terrains
+    #shade
+    #nextStage
+    #race
+    #duration
+    #script
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        extraQty: 2
+        percentageOutsideUfo: 10
+        itemSets:
+          - - STR_ALIEN_PISTOL
+          - - STR_ALIEN_ASSAULT_RIFLE
+          - - STR_ALIEN_SHOTGUN
+      - alienRank: 4
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        extraQty: 1 
+        percentageOutsideUfo: 0
+        itemSets:
+          - - STR_ALIEN_PISTOL
+          - - STR_ALIEN_ASSAULT_RIFLE
+          - - STR_ALIEN_SHOTGUN
+          - - STR_ALIEN_SNIPER_RIFLE
+    #genMissionType:
+    #genMissionFreq:
+    #alienBase
+    points: 1
+
+  - type: STR_RAIDER
+    #alert
+    #markerName
+    #markerIcon
+    #briefing
+    width:  80
+    length: 80
+    height: 8
+    #terrains
+    #shade
+    #nextStage
+    #race
+    #duration
+    #script
+    data:
+      - alienRank: 7
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        extraQty: 2
+        percentageOutsideUfo: 10
+        itemSets:
+          - - STR_ALIEN_PISTOL
+      - alienRank: 6
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        extraQty: 2
+        percentageOutsideUfo: 10
+        itemSets:
+          - - STR_ALIEN_PISTOL
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        extraQty: 2
+        percentageOutsideUfo: 10
+        itemSets:
+          - - STR_ALIEN_PISTOL
+          - - STR_ALIEN_ASSAULT_RIFLE
+          - - STR_ALIEN_SHOTGUN
+      - alienRank: 4
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        extraQty: 1 
+        percentageOutsideUfo: 0
+        itemSets:
+          - - STR_ALIEN_PISTOL
+          - - STR_ALIEN_ASSAULT_RIFLE
+          - - STR_ALIEN_SHOTGUN
+          - - STR_ALIEN_SNIPER_RIFLE
+      - alienRank: 3
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        extraQty: 1 
+        percentageOutsideUfo: 0
+        itemSets:
+          - - STR_ALIEN_PISTOL
+          - - STR_ALIEN_ASSAULT_RIFLE
+          - - STR_ALIEN_SHOTGUN
+          - - STR_ALIEN_SNIPER_RIFLE
+      - alienRank: 2
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        extraQty: 1 
+        percentageOutsideUfo: 0
+        itemSets:
+          - - STR_ALIEN_PISTOL
+          - - STR_ALIEN_ASSAULT_RIFLE
+          - - STR_ALIEN_SHOTGUN
+          - - STR_ALIEN_SNIPER_RIFLE
+      - alienRank: 1
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        extraQty: 1 
+        percentageOutsideUfo: 0
+        itemSets:
+          - - STR_ALIEN_PISTOL
+          - - STR_ALIEN_ASSAULT_RIFLE
+          - - STR_ALIEN_SHOTGUN
+          - - STR_ALIEN_SNIPER_RIFLE
+      - alienRank: 0
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        extraQty: 1 
+        percentageOutsideUfo: 0
+        itemSets:
+          - - STR_ALIEN_PISTOL
+          - - STR_ALIEN_ASSAULT_RIFLE
+          - - STR_ALIEN_SHOTGUN
+          - - STR_ALIEN_SNIPER_RIFLE
+    #genMissionType:
+    #genMissionFreq:
+    #alienBase
+    points: 1
+
+  - type: STR_PUMP
+    #alert
+    #markerName
+    #markerIcon
+    #briefing
+    width:  80
+    length: 80
+    height: 8
+    #terrains
+    #shade
+    #nextStage
+    #race
+    #duration
+    #script
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 4
+        dQty: 2
+        extraQty: 2
+        percentageOutsideUfo: 10
+        itemSets:
+          - - STR_ALIEN_PISTOL
+          - - STR_ALIEN_ASSAULT_RIFLE
+          - - STR_ALIEN_SHOTGUN
+    #genMissionType:
+    #genMissionFreq:
+    #alienBase
+    points: 1

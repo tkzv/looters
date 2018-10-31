@@ -1,1 +1,15 @@
 extraSprites:
+  - type: VORCHA_SPRITES
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: vorcha.png
+  - type: KROGAN_SPRITES
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: krogan.png

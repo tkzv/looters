@@ -29,8 +29,9 @@ armors:
   - delete: CELATID_ARMOR
 
   - type: VORCHA_ARMOR0
-    spriteSheet: VORCHA_PIC
-    spriteInv: VORCHA_INV
+    spriteSheet: VORCHA_SPRITES
+    drawingRoutine: 4
+    #spriteInv: VORCHA_INV
     # spriteFaceGroup, spriteFaceColor, spriteHairGroup, spriteHairColor, spriteUtileGroup, spriteUtileColor, spriteRankGroup, spriteRankColor
     corpseBattle:
       - STR_VORCHA_CORPSE
@@ -52,8 +53,9 @@ armors:
     loftempsSet: [ 3 ]
 
   - type: KROGAN_ARMOR0
-    spriteSheet: KROGAN_PIC
-    spriteInv: KROGAN_INV
+    spriteSheet: KROGAN_SPRITES
+    drawingRoutine: 4
+    #spriteInv: KROGAN_INV
     corpseBattle:
       - STR_KROGAN_CORPSE
     frontArmor: 50
@@ -74,7 +76,7 @@ armors:
     loftempsSet: [ 6 ]
 
   - type: BATARIAN_ARMOR0
-    spriteSheet: BATARIAN_PIC
+    spriteSheet: BATARIAN_SPRITES
     spriteInv: BATARIAN_INV
     corpseBattle:
       - STR_BATARIAN_CORPSE
@@ -86,7 +88,7 @@ armors:
     loftempsSet: [ 4 ]
 
   - type: SALARIAN_ARMOR0
-    spriteSheet: SALARIAN_PIC
+    spriteSheet: SALARIAN_SPRITES
     spriteInv: SALARIAN_INV
     corpseBattle:
       - STR_SALARIAN_CORPSE
@@ -108,7 +110,7 @@ armors:
     loftempsSet: [ 3 ]
 
   - type: ASARI_ARMOR0
-    spriteSheet: ASARI_PIC
+    spriteSheet: ASARI_SPRITES
     spriteInv: ASARI_INV
     corpseBattle:
       - STR_ASARI_CORPSE
@@ -130,7 +132,7 @@ armors:
     loftempsSet: [ 4 ]
 
   - type: TURIAN_ARMOR0
-    spriteSheet: TURIAN_PIC
+    spriteSheet: TURIAN_SPRITES
     spriteInv: TURIAN_INV
     corpseBattle:
       - STR_TURIAN_CORPSE
@@ -153,7 +155,7 @@ armors:
 
 
   - type: DRELL_ARMOR0
-    spriteSheet: DRELL_PIC
+    spriteSheet: DRELL_SPRITES
     spriteInv: DRELL_INV
     corpseBattle:
       - STR_DRELL_CORPSE
@@ -175,7 +177,7 @@ armors:
     loftempsSet: [ 4 ]
 
   - type: QUARIAN_ARMOR0
-    spriteSheet: QUARIAN_PIC
+    spriteSheet: QUARIAN_SPRITES
     spriteInv: QUARIAN_INV
     corpseBattle:
       - STR_QUARIAN_CORPSE
