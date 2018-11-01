@@ -5,8 +5,7 @@ TODO:
    + ~~Research.~~
    + Ufopaedia.
    + Research after mission.
-   + Correct hit animation.
-   
+   + Correct hit animation.   
 2. Working Spiky raid.  
   * Sprites.  
     1. ~~stubs.~~  
@@ -21,12 +20,9 @@ TODO:
     2. alienMissions  
     3. missionScripts  
     4. regions  
-    5. ~~ufos~~ 
-    
+    5. ~~ufos~~     
 3. Replace regions.rul
-
 4. Remove elerium.
-
 5. Add 4+ sides.  
   * raiders  
   * looters  
@@ -34,13 +30,11 @@ TODO:
   * thieves  
   * assassin  
 6. Add plot for 4+ sides.  
-
   * raiders  
   * looters  
   * guards  
   * thieves  
-  * assassin  
-  
+  * assassin    
 7. Add 4+ finals.  
   * assassin's message (research)  
   * thieves' message (mission)  
