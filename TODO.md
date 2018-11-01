@@ -1,8 +1,8 @@
 TODO:
 
 1. Working alien guns.  
-   ~~+ Provisional sprites.~~
-   ~~+ Research.~~
+   + ~~Provisional sprites.~~
+   + ~~Research.~~
    + Ufopaedia.
    + Research after mission.
    + Correct hit animation.
