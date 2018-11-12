@@ -4,7 +4,7 @@
    + ~~Provisional sprites.~~
    + ~~Research.~~
    + Ufopaedia.
-   + Research after mission.
+   + Mission gives AGUNS, shown as slideshow.
    + Correct hit animation.
 2. Working Spiky raid.
    * Sprites.
@@ -20,7 +20,9 @@
      2. alienMissions
      3. missionScripts
      4. regions
-     5. ~~ufos~~     
+     5. ~~ufos~~
+     6. mission gives brief race information
+     7. full race information replaces brief
 3. Replace regions.rul
 4. Remove elerium.
 5. Add 4+ sides.
