@@ -208,3 +208,12 @@ research:
     #cutscene:
 
   
+  - name: STR_SALARIAN_LANGUAGE
+  - name: STR_ASARI_LANGUAGE
+  - name: STR_TURIAN_LANGUAGE
+  - name: STR_BATARIAN_LANGUAGE
+  - name: STR_VORCHA_LANGUAGE
+  - name: STR_KROGAN_LANGUAGE
+  - name: STR_DRELL_LANGUAGE
+  - name: STR_QUARIAN_LANGUAGE
+  - name: STR_ALIEN_LANGUAGE
