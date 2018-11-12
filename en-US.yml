@@ -35,6 +35,16 @@ en-US:
   STR_OMNITOOL_ARTICLE: "This deice is forearm-mounted. It is an alien PDA/communicator/replicator. We've successfuly employed it to build an EMP grenade that burned all computers in the room (insurance claim forms attached) and a silicon blade Dr.Mbayo stabbed himself with (by accident). We paused further investigation until we can read the alien language."
   STR_HYPERNET: "Hypernet"
   STR_HYPERNET_ARTICLE: "A global network we dubbed “Hypernet” encompasses the whole galaxy. We have no idea how hyperluminal communication works, but the end result is a lot like our Internet. Or Fidonet, considerind its heterogenity and lags.{NEWLINE}Search tools are surprisingly useless, far below Veronica or even Altavista. But we can use them as a starting point and ask around. We've already came up with about 20 topics to research. All it takes is an alien PDA and some time."
+  STR_ALIEN_LANGUAGE: "Alien Language"
+  STR_ALIEN_LANGUAGE_ARTICLE: "Each alien species has multiple languages. Each PDA is capable of synchronous translating between any alien languages. With the help of our alien prisoners we've managed to cobble together adequate translation modules for several Earth languages.{NEWLINE}While translation from English works fine most of the time, we recommend double-checking it by translating the same phrase from Latin, Turkish or Esperanto.
+  STR_SALARIAN_LANGUAGE: "Horned Language"
+  STR_ASARI_LANGUAGE: "Blue Language"
+  STR_TURIAN_LANGUAGE: "Bird Language"
+  STR_BATARIAN_LANGUAGE: "4-eyed Language"
+  STR_VORCHA_LANGUAGE: "Spikie Language"
+  STR_KROGAN_LANGUAGE: "Dino Language"
+  STR_DRELL_LANGUAGE: "Lizard Language"
+  STR_QUARIAN_LANGUAGE: "Hazmat Language"
 
   # Hypernet trawling
   STR_TRAWLING_00: "Trawling: 4-eyed aliens"
