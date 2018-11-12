@@ -1,4 +1,5 @@
 extraSprites:
+  # Battlescape enemy sprites
   - type: VORCHA_SPRITES
     subX: 32
     subY: 40
@@ -118,3 +119,36 @@ extraSprites:
     height: 200
     files:
       0: drell-m-a.png
+
+  # Intro
+  - type: INTRO1
+    width: 320
+    height: 200
+    files:
+      0: salarievo-empty.png
+  - type: INTRO2
+    width: 320
+    height: 200
+    files:
+      0: salarievo-crash.png
+  - type: INTRO3
+    width: 320
+    height: 200
+    files:
+      0: salarievo-explosion.png
+  - type: INTRO4
+    width: 320
+    height: 200
+    files:
+      0: salarians-firing.png
+  - type: INTRO5
+    width: 320
+    height: 200
+    files:
+      0: missing-silhouettes.png
+  - type: INTRO6
+    width: 320
+    height: 200
+    files:
+      0: world-exclamations-salarian.png
+  
