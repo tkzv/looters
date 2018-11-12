@@ -53,7 +53,30 @@ armors:
     loftempsSet: [ 3 ]
 
   - type: KROGAN_ARMOR0
-    spriteSheet: KROGAN_SPRITES
+    spriteSheet: KROGAN_SPRITES_U # unarmoured
+    drawingRoutine: 4
+    #spriteInv: KROGAN_INV
+    corpseBattle:
+      - STR_KROGAN_CORPSE
+    frontArmor: 5
+    sideArmor:  5
+    rearArmor:  5
+    underArmor: 5
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #AP
+      - 1.0 #Incen
+      - 1.0 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.2 #Smoke
+    loftempsSet: [ 6 ]
+
+  - type: KROGAN_ARMOR1
+    spriteSheet: KROGAN_SPRITES_A # red armour
     drawingRoutine: 4
     #spriteInv: KROGAN_INV
     corpseBattle:
@@ -76,8 +99,31 @@ armors:
     loftempsSet: [ 6 ]
 
   - type: BATARIAN_ARMOR0
-    spriteSheet: BATARIAN_SPRITES
-    spriteInv: BATARIAN_INV
+    spriteSheet: BATARIAN_SPRITES_M_U
+    #spriteInv: BATARIAN_INV
+    corpseBattle:
+      - STR_BATARIAN_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #AP
+      - 1.5 #Incen
+      - 1.0 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+    loftempsSet: [ 4 ]
+
+  - type: BATARIAN_ARMOR1
+    spriteSheet: BATARIAN_SPRITES_M_A
+    #spriteInv: BATARIAN_INV
     corpseBattle:
       - STR_BATARIAN_CORPSE
     frontArmor: 20
@@ -85,11 +131,43 @@ armors:
     rearArmor: 20
     underArmor: 20
     damageModifier:
+      - 1.0 #None
+      - 0.5 #AP
+      - 0.5 #Incen
+      - 0.5 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.5 #Stun
+      - 0.5 #Melee
+      - 0.5 #Acid
+      - 0.0 #Smoke
     loftempsSet: [ 4 ]
 
   - type: SALARIAN_ARMOR0
-    spriteSheet: SALARIAN_SPRITES
-    spriteInv: SALARIAN_INV
+    spriteSheet: SALARIAN_SPRITES_U
+    #spriteInv: SALARIAN_INV
+    corpseBattle:
+      - STR_SALARIAN_CORPSE
+    frontArmor: 2
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #AP
+      - 1.0 #Incen
+      - 1.0 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+    loftempsSet: [ 3 ]
+
+  - type: SALARIAN_ARMOR1
+    spriteSheet: SALARIAN_SPRITES_A
+    #spriteInv: SALARIAN_INV
     corpseBattle:
       - STR_SALARIAN_CORPSE
     frontArmor: 20
@@ -110,8 +188,30 @@ armors:
     loftempsSet: [ 3 ]
 
   - type: ASARI_ARMOR0
-    spriteSheet: ASARI_SPRITES
-    spriteInv: ASARI_INV
+    spriteSheet: ASARI_SPRITES_U
+    #spriteInv: ASARI_INV
+    corpseBattle:
+      - STR_ASARI_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #AP
+      - 1.0 #Incen
+      - 1.0 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+    loftempsSet: [ 4 ]
+
+  - type: ASARI_ARMOR1
+    spriteSheet: ASARI_SPRITES_A
+    #spriteInv: ASARI_INV
     corpseBattle:
       - STR_ASARI_CORPSE
     frontArmor: 20
