@@ -1,0 +1,46 @@
+cutscenes:
+  - type: intro
+    useUfoAudioSequence: false
+    slideshow:
+      transitionSeconds: 10
+      slides:
+        - imagePath: INTRO1
+          caption: STR_INTRO0
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 249
+        - imagePath: INTRO1
+          caption: STR_INTRO1
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 249
+        - imagePath: INTRO2
+          caption: STR_INTRO2
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 249
+        - imagePath: INTRO3
+          caption: STR_INTRO3
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 249
+        - imagePath: INTRO4
+          caption: STR_INTRO4
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 249
+        - imagePath: INTRO5
+          caption: STR_INTRO5
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 249
+        - imagePath: INTRO6
+          caption: STR_INTRO6
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 249
+        - imagePath: INTRO6
+          caption: STR_INTRO7
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 249
