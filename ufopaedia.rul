@@ -88,8 +88,8 @@ ufopaedia:
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
 
-# Alien weapons.
-- id: STR_AGUNS
+  # Alien weapons.
+  - id: STR_AGUNS
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
     requires:
@@ -122,7 +122,7 @@ ufopaedia:
       - STR_ALIEN_SNIPER_RIFLE
     text: STR_ALIEN_SNIPER_RIFLE_ARTICLE
 
-#Aliens
+  #Aliens
   - id: STR_VORCHA_PRELIMINARY
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS
