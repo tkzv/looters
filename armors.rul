@@ -52,6 +52,30 @@ armors:
       - 0.1 #Smoke
     loftempsSet: [ 3 ]
 
+  - type: VARREN_ARMOR0
+    spriteSheet: VARREN_SPRITES
+    drawingRoutine: 4
+    #spriteInv: VARREN_INV
+    # spriteFaceGroup, spriteFaceColor, spriteHairGroup, spriteHairColor, spriteUtileGroup, spriteUtileColor, spriteRankGroup, spriteRankColor
+    corpseBattle:
+      - STR_VARREN_CORPSE
+    frontArmor: 10
+    sideArmor:  10
+    rearArmor:  10
+    underArmor: 10
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #AP
+      - 2.0 #Incen
+      - 1.0 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 0.5 #Acid
+      - 0.1 #Smoke
+    loftempsSet: [ 3 ]
+
   - type: KROGAN_ARMOR0
     spriteSheet: KROGAN_SPRITES_U # unarmoured
     drawingRoutine: 4
@@ -232,14 +256,58 @@ armors:
     loftempsSet: [ 4 ]
 
   - type: TURIAN_ARMOR0
-    spriteSheet: TURIAN_SPRITES
-    spriteInv: TURIAN_INV
+    spriteSheet: TURIAN_SPRITES_M_U
+    #spriteInv: TURIAN_INV
     corpseBattle:
       - STR_TURIAN_CORPSE
-    frontArmor: 20
-    sideArmor: 20
-    rearArmor: 20
-    underArmor: 20
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #AP
+      - 1.0 #Incen
+      - 1.0 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+    loftempsSet: [ 4 ]
+
+  - type: TURIAN_ARMOR1
+    spriteSheet: TURIAN_SPRITES_F_U
+    #spriteInv: TURIAN_INV
+    corpseBattle:
+      - STR_TURIAN_CORPSE
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #AP
+      - 1.0 #Incen
+      - 1.0 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+    loftempsSet: [ 4 ]
+
+  - type: TURIAN_ARMOR2
+    spriteSheet: TURIAN_SPRITES_M_A
+    #spriteInv: TURIAN_INV
+    corpseBattle:
+      - STR_TURIAN_CORPSE
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: #0
     damageModifier:
       - 1.0 #None
       - 0.5 #AP
@@ -253,6 +321,27 @@ armors:
       - 0.0 #Smoke
     loftempsSet: [ 4 ]
 
+  - type: TURIAN_ARMOR4
+    spriteSheet: TURIAN_SPRITES_F_A
+    #spriteInv: TURIAN_INV
+    corpseBattle:
+      - STR_TURIAN_CORPSE
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 30
+    damageModifier:
+      - 1.0 #None
+      - 0.5 #AP
+      - 0.5 #Incen
+      - 0.5 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.5 #Stun
+      - 0.5 #Melee
+      - 0.5 #Acid
+      - 0.0 #Smoke
+    loftempsSet: [ 4 ]
 
   - type: DRELL_ARMOR0
     spriteSheet: DRELL_SPRITES
@@ -277,8 +366,8 @@ armors:
     loftempsSet: [ 4 ]
 
   - type: QUARIAN_ARMOR0
-    spriteSheet: QUARIAN_SPRITES
-    spriteInv: QUARIAN_INV
+    spriteSheet: QUARIAN_SPRITES_M_A
+    #spriteInv: QUARIAN_INV
     corpseBattle:
       - STR_QUARIAN_CORPSE
     frontArmor: 20
@@ -298,3 +387,24 @@ armors:
       - 0.0 #Smoke
     loftempsSet: [ 4 ]
 
+  - type: QUARIAN_ARMOR1
+    spriteSheet: QUARIAN_SPRITES_F_A
+    #spriteInv: QUARIAN_INV
+    corpseBattle:
+      - STR_QUARIAN_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 0.5 #AP
+      - 0.5 #Incen
+      - 0.5 #HExp
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.5 #Stun
+      - 0.5 #Melee
+      - 0.5 #Acid
+      - 0.0 #Smoke
+    loftempsSet: [ 4 ]
