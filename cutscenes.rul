@@ -3,54 +3,53 @@ cutscenes:
   - type: intro
     useUfoAudioSequence: false
     slideshow:
-      transitionSeconds: 10
+      transitionSeconds: 30
       slides:
-        - imagePath: blank.png
-          # imagePath: salarievo-empty.png
+        - imagePath: salarievo-empty.png
           caption: STR_INTRO0
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 249
-        - imagePath: blank.png
-          # imagePath: salarievo-empty.png
+          captionColor: 253 # 60, 76, 250+
+        - imagePath: salarievo-empty.png
           caption: STR_INTRO1
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 249
-        - imagePath: blank.png
-          # imagePath: salarievo-crash.png
+          captionColor: 253
+        - imagePath: salarievo-crash.png
           caption: STR_INTRO2
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 249
-        - imagePath: blank.png
-          # imagePath: salarievo-explosion.png
+          captionColor: 253
+        - imagePath: salarievo-explosion.png
           caption: STR_INTRO3
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 249
-        - imagePath: blank.png
+          captionColor: 253 # !!!! 60
+        - imagePath: dump-opt.png
+          # imagePath: blank.png
           # imagePath: salarians-firing.png
           caption: STR_INTRO4
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 249
-        - imagePath: blank.png
+          captionColor: 253
+        - imagePath: dump-opt.png
+          # imagePath: blank.png
           # imagePath: missing-silhouettes.png
           caption: STR_INTRO5
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 249
-        - imagePath: blank.png
+          captionColor: 253
+        - imagePath: dump-opt.png
+          # imagePath: blank.png
           # imagePath: world-exclamations-salarian.png
           caption: STR_INTRO6
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 249
-        - imagePath: blank.png
+          captionColor: 253
+        - imagePath: dump-opt.png
+          # imagePath: blank.png
           # imagePath: world-exclamations-salarian.png
           caption: STR_INTRO7
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 249
-
+          captionColor: 253
