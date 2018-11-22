@@ -179,6 +179,16 @@ en-US:
   STR_RETALIATION: "Alien Retaliation"
   STR_RETALIATION_ARTICLE: "When aliens grow sick and tired of our flea bites, they may decide to solve the problem at the root. They track down our base and storm it."
 
+  # Quarian arc
+  STR_CONTACT_MIGRANT_FLEET: "Contacting Homeless Ships"
+  STR_CONTACT_MIGRANT_FLEET_ARTICLE: "Contacting Homeless Ships proved unexpectedly difficult.{NEWLINE}After an odd pirate attack in 1990 and expensive repairs Hazmats are very short on cash and cut down every expense. They owe several months worth to most large Hypernet providers. To send a letter, we need an encrypted communication terminal (so-called 'governmental'), which is often installed at large ships and bases. Since it will become unable to transmit after the first unauthorized use, prolonged exchange of mails would require capturing such terminals repeatedly."
+  STR_QUARIAN_PIRATE_1990: "Абордаж 1990 года"
+  STR_QUARIAN_PIRATE_1990_ARTICLE: "Около 10 лет назад пираты попытались взять на абордаж один из крупных жилых Бродячих Кораблей. Случилось это вдали от населённых планет, а контакты химзов с остальной галактикой весьма ограничены, поэтому никто об этом не знал бы, если бы не показательная казнь пиратов. Даже так информация крайне скудна, и большая часть -- выводы из косвенных данных и догадки. Достоверно известно лишь то, что химзы спешно и не торгуясь закупали оружие и материалы для ремонта кораблей и жизнеобеспечения, и что они до сих пор не погасили долги. Несколько вопросов вызывают особый интерес:{NEWLINE}Почему тщательно охраняемый жилой корабль остался без сопровождения?{NEWLINE}Как пираты рассчитывали захватить корабль с миллионным населением силами единственного фрегата?{NEWLINE}Почему банки изменили правилу не кредитовать БК?"
+  STR_DISPATCHING_PRISONERS: "Возврат пленных химзов"
+  STR_DISPATCHING_PRISONERS_ARTICLE: "Мы отправили письмо с предложением встретиться на острове Элсмир для передачи пленных химзов. Всё захваченное оборудование и корабли остаются нам"
+
+
+
   # Alien guns after closer inspection
   STR_ALIEN_PISTOL: "Alien Pistol"
   STR_ALIEN_PISTOL_ARTICLE: "This small submachine gun fires small grains of metal at hypersonic speeds. Compared to Earth guns, it punches far above its weight, on par with heavy machineguns. It cannot sustain rapid rate of fire for long and quickly overheats."
