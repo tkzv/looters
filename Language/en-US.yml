@@ -29,6 +29,27 @@ en-US:
   STR_TURIAN_ARTICLE_1: "Humanoids, if you stretch the definition to a creature covered with armor plates, with non-functional flat mandibles, bird-like hands and feet (with rooster spurs) and a beakless parrot head (featherless, but crested). They tend to be armed better than most aliens and demonstrate best combat skills. Physically they are a match to a human in peak physical condition.{NEWLINE}Prisoners have desperately tried to communicate something. When that failed due to language barrier, they started a hunger strike. If we can't figure why, we'd have to transfer them to a facility, where they can be force-fed. Of course, our scientists won't be able to study them there, and others' results won't arrive soon.{NEWLINE}Several percent manifest telekinetic powers and require special containment procedures."
   STR_KROGAN_ARTICLE_1: "Those humanoid dinosaurs are very strong and surprisingly fast. They quickly regenerate and can stand a lot of punishment. A single dino can carry an arsenal big enough to down an air wing and armour to match an APC. Communication attempts yielded nothing so far.{NEWLINE}A warning to guards: do not try to beat them! Dinos seem to mistake it for a sparring invitation — without an intent to kill, but still dangerously lethal due to their strength. Just shoot them — they'll get the point faster that way.{NEWLINE}Several percent manifest telekinetic powers and require special containment procedures."
   STR_DRELL_ARTICLE_1: "A lean green lizard-like alien (although some called him a frog for his color), who surrendered to us. He(?) knows English and has asked to speak with X-COM high command. We need to study him further to decide."
+
+  # Corpses
+  STR_BATARIAN_CORPSE: ""
+  STR_SALARIAN_CORPSE: ""
+  STR_VORCHA_CORPSE: ""
+  STR_VARREN_CORPSE: ""
+  STR_QUARIAN_CORPSE: ""
+  STR_ASARI_CORPSE: ""
+  STR_TURIAN_CORPSE: ""
+  STR_KROGAN_CORPSE: ""
+  STR_DRELL_CORPSE: ""
+  STR_BATARIAN_CORPSE_ARTICLE: "Гуманоид, покрытый редкой жёсткой шерстью. Нервная система очень похожа на человеческую, несмотря на лишнюю пару глаз. Предварительный молекулярно-генетический анализ показал неожиданно большое сходство с земными летучими мышами и непарнокопытными."
+  STR_SALARIAN_CORPSE_ARTICLE: ""
+  STR_VORCHA_CORPSE_ARTICLE: ""
+  STR_VARREN_CORPSE_ARTICLE: ""
+  STR_QUARIAN_CORPSE_ARTICLE: ""
+  STR_ASARI_CORPSE_ARTICLE: ""
+  STR_TURIAN_CORPSE_ARTICLE: ""
+  STR_KROGAN_CORPSE_ARTICLE: ""
+  STR_DRELL_CORPSE_ARTICLE: ""
+
   # First glimpses of alien technology
   STR_AGUNS: "Alien Kinetic Weapons"
   STR_AGUNS_ARTICLE: "Despite their technological superiority aliens still employ kinetic weapons. Albeit their guns are collapsible, muzzle velocity is hypersonic and ammunition load is estimated above 50 000 shots. They seem to use electromagnetic acceleration, but we have no clue about the power source.{NEWLINE}No two guns are alike (replicator-manufactured on the spot?), but they all fall into 4 categories roughly equivalent to our pistols/SMGs, assault rifles, shotguns and sniper rifles.{NEWLINE}They all possess intuitive point-and-click interface without any hint of ID locks. Our operatives should have no trouble using them."
