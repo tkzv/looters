@@ -6,116 +6,116 @@ extraSprites:
     width: 512
     height: 200
     files:
-      0: vorcha.png
+      0: bssprites/vorcha.png
   - type: KROGAN_SPRITES_U
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: krogan-u.png
+      0: bssprites/krogan-u.png
   - type: KROGAN_SPRITES_A
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: krogan-a.png
+      0: bssprites/krogan-a.png
   - type: ASARI_SPRITES_U
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: asari-u.png
+      0: bssprites/asari-u.png
   - type: ASARI_SPRITES_A
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: asari-a.png
+      0: bssprites/asari-a.png
   - type: SALARIAN_SPRITES_U
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: salarian-u.png
+      0: bssprites/salarian-u.png
   - type: SALARIAN_SPRITES_A
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: salarian-a.png
+      0: bssprites/salarian-a.png
   - type: TURIAN_SPRITES_M_U
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: turian-m-u.png
+      0: bssprites/turian-m-u.png
   - type: TURIAN_SPRITES_M_A
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: turian-m-a.png
+      0: bssprites/turian-m-a.png
   - type: TURIAN_SPRITES_F_U
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: turian-f-u.png
+      0: bssprites/turian-f-u.png
   - type: TURIAN_SPRITES_F_A
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: turian-f-a.png
+      0: bssprites/turian-f-a.png
   - type: BATARIAN_SPRITES_M_U
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: batarian-m-u.png
+      0: bssprites/batarian-m-u.png
   - type: BATARIAN_SPRITES_F_U
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: batarian-f-u.png
+      0: bssprites/batarian-f-u.png
   - type: BATARIAN_SPRITES_M_A
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: batarian-m-a.png
+      0: bssprites/batarian-m-a.png
   - type: BATARIAN_SPRITES_F_A
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: batarian-f-a.png
+      0: bssprites/batarian-f-a.png
   - type: VARREN_SPRITES
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: varren.png
+      0: bssprites/varren.png
   - type: DRELL_SPRITES_M_A
     subX: 32
     subY: 40
     width: 512
     height: 200
     files:
-      0: drell-m-a.png
+      0: bssprites/drell-m-a.png
