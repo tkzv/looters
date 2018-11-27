@@ -88,240 +88,35 @@ ufopaedia:
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
 
-#  # Alien weapons.
-#  - id: STR_AGUNS
-#    type_id: 7
-#    section: STR_ALIEN_RESEARCH_UC
-#    requires:
-#      - STR_AGUNS
-#    #image_id:
-#    text: STR_AGUNS_ARTICLE
-#    text_width: 154
-#  - id: STR_ALIEN_PISTOL
-#    type_id: 4
-#    section: STR_ALIEN_ARTIFACTS
-#    requires:
-#      - STR_ALIEN_PISTOL
-#    text: STR_ALIEN_PISTOL_ARTICLE
-#  - id: STR_ALIEN_ASSAULT_RIFLE
-#    type_id: 4
-#    section: STR_ALIEN_ARTIFACTS
-#    requires:
-#      - STR_ALIEN_ASSAULT_RIFLE
-#    text: STR_ALIEN_ASSAULT_RIFLE_ARTICLE
-#  - id: STR_ALIEN_SHOTGUN
-#    type_id: 4
-#    section: STR_ALIEN_ARTIFACTS
-#    requires:
-#      - STR_ALIEN_SHOTGUN
-#    text: STR_ALIEN_SHOTGUN_ARTICLE
-#  - id: STR_ALIEN_SNIPER_RIFLE
-#    type_id: 4
-#    section: STR_ALIEN_ARTIFACTS
-#    requires:
-#      - STR_ALIEN_SNIPER_RIFLE
-#    text: STR_ALIEN_SNIPER_RIFLE_ARTICLE
-#
-#  #Aliens
-#  - id: STR_VORCHA_PRELIMINARY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_VORCHA_PRELIMINARY
-#    image_id: VORCHA_ARTICLE
-#    text: STR_VORCHA_ARTICLE_1
-#    text_width: 158
-#  - id: STR_VORCHA
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_VORCHA
-#    image_id: VORCHA_ARTICLE
-#    text: STR_VORCHA_ARTICLE_2
-#    text_width: 158
-#  - id: STR_VORCHA_AUTOPSY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_VORCHA_CORPSE
-#    image_id: VORCHA_CORPSE
-#    text: STR_VORCHA_AUTOPSY_ARTICLE
-#    text_width: 158
-#
-#  - id: STR_BATARIAN_PRELIMINARY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_BATARIAN_PRELIMINARY
-#    image_id: BATARIAN_ARTICLE
-#    text: STR_BATARIAN_ARTICLE_1
-#    text_width: 158
-#  - id: STR_BATARIAN
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_BATARIAN
-#    image_id: BATARIAN_ARTICLE
-#    text: STR_BATARIAN_ARTICLE_2
-#    text_width: 158
-#  - id: STR_BATARIAN_AUTOPSY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_BATARIAN_CORPSE
-#    image_id: BATARIAN_CORPSE
-#    text: STR_BATARIAN_AUTOPSY_ARTICLE
-#    text_width: 158
-#
-#  - id: STR_SALARIAN_PRELIMINARY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_SALARIAN_PRELIMINARY
-#    image_id: SALARIAN_ARTICLE
-#    text: STR_SALARIAN_ARTICLE_1
-#    text_width: 158
-#  - id: STR_SALARIAN
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_SALARIAN
-#    image_id: SALARIAN_ARTICLE
-#    text: STR_SALARIAN_ARTICLE_2
-#    text_width: 158
-#  - id: STR_SALARIAN_AUTOPSY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_SALARIAN_CORPSE
-#    image_id: SALARIAN_CORPSE
-#    text: STR_SALARIAN_AUTOPSY_ARTICLE
-#    text_width: 158
-#
-#  - id: STR_QUARIAN_PRELIMINARY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_QUARIAN_PRELIMINARY
-#    image_id: QUARIAN_ARTICLE
-#    text: STR_QUARIAN_ARTICLE_1
-#    text_width: 158
-#  - id: STR_QUARIAN
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_QUARIAN
-#    image_id: QUARIAN_ARTICLE
-#    text: STR_QUARIAN_ARTICLE_2
-#    text_width: 158
-#  - id: STR_QUARIAN_AUTOPSY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_QUARIAN_CORPSE
-#    image_id: QUARIAN_CORPSE
-#    text: STR_QUARIAN_AUTOPSY_ARTICLE
-#    text_width: 158
-#
-#  - id: STR_ASARI_PRELIMINARY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_ASARI_PRELIMINARY
-#    image_id: ASARI_ARTICLE
-#    text: STR_ASARI_ARTICLE_1
-#    text_width: 158
-#  - id: STR_ASARI
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_ASARI
-#    image_id: ASARI_ARTICLE
-#    text: STR_ASARI_ARTICLE_2
-#    text_width: 158
-#  - id: STR_ASARI_AUTOPSY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_ASARI_CORPSE
-#    image_id: ASARI_CORPSE
-#    text: STR_ASARI_AUTOPSY_ARTICLE
-#    text_width: 158
-#
-#  - id: STR_TURIAN_PRELIMINARY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_TURIAN_PRELIMINARY
-#    image_id: TURIAN_ARTICLE
-#    text: STR_TURIAN_ARTICLE_1
-#    text_width: 158
-#  - id: STR_TURIAN
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_TURIAN
-#    image_id: TURIAN_ARTICLE
-#    text: STR_TURIAN_ARTICLE_2
-#    text_width: 158
-#  - id: STR_TURIAN_AUTOPSY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_TURIAN_CORPSE
-#    image_id: TURIAN_CORPSE
-#    text: STR_TURIAN_AUTOPSY_ARTICLE
-#    text_width: 158
-#
-#  - id: STR_KROGAN_PRELIMINARY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_KROGAN_PRELIMINARY
-#    image_id: KROGAN_ARTICLE
-#    text: STR_KROGAN_ARTICLE_1
-#    text_width: 158
-#  - id: STR_KROGAN
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_KROGAN
-#    image_id: KROGAN_ARTICLE
-#    text: STR_KROGAN_ARTICLE_2
-#    text_width: 158
-#  - id: STR_KROGAN_AUTOPSY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_KROGAN_CORPSE
-#    image_id: KROGAN_CORPSE
-#    text: STR_KROGAN_AUTOPSY_ARTICLE
-#    text_width: 158
-#
-#  - id: STR_DRELL_PRELIMINARY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_DRELL_PRELIMINARY
-#    image_id: DRELL_ARTICLE
-#    text: STR_DRELL_ARTICLE_1
-#    text_width: 158
-#  - id: STR_DRELL
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_DRELL
-#    image_id: DRELL_ARTICLE
-#    text: STR_DRELL_ARTICLE_2
-#    text_width: 158
-#  - id: STR_DRELL_AUTOPSY
-#    type_id: 7
-#    section: STR_ALIEN_LIFE_FORMS
-#    requires:
-#      - STR_DRELL_CORPSE
-#    image_id: DRELL_CORPSE
-#    text: STR_DRELL_AUTOPSY_ARTICLE
-#    text_width: 158
+  # Alien weapons.
+  - id: STR_AGUNS
+    type_id: 8 
+    section: STR_ALIEN_RESEARCH_UC
+    requires: [ STR_AGUNS ]
+    image_id: BLANK
+    text: STR_AGUNS_ARTICLE
+    # text_width: 154
+  # Alien guns after closer inspection
+  - id: STR_ALIEN_PISTOL
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires: [ STR_ALIEN_PISTOL ]
+    text: STR_ALIEN_PISTOL_ARTICLE
+  - id: STR_ALIEN_ASSAULT_RIFLE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires: [ STR_ALIEN_ASSAULT_RIFLE ]
+    text: STR_ALIEN_ASSAULT_RIFLE_ARTICLE
+  - id: STR_ALIEN_SHOTGUN
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires: [ STR_ALIEN_SHOTGUN ]
+    text: STR_ALIEN_SHOTGUN_ARTICLE
+  - id: STR_ALIEN_SNIPER_RIFLE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires: [ STR_ALIEN_SNIPER_RIFLE ]
+    text: STR_ALIEN_SNIPER_RIFLE_ARTICLE
 
   # Alien species
   - id: STR_BATARIAN
@@ -433,79 +228,26 @@ ufopaedia:
     requires: [ STR_DRELL_PRELIMINARY ]
     # image_id: DRELL_PRELIMINARY_ufopaedia
     text: STR_DRELL_ARTICLE_1
+
   # First glimpses of alien technology
-  - id: STR_AGUNS
-    type_id: 8
-    section: STR_ALIEN_LIFE_FORMS
-    requires: [ STR_AGUNS ]
-    # image_id: AGUNS_ufopaedia
-    text: STR_AGUNS_ARTICLE
   - id: STR_OMNITOOL
-    type_id: 8
-    section: STR_ALIEN_LIFE_FORMS
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
     requires: [ STR_OMNITOOL ]
     # image_id: OMNITOOL_ufopaedia
     text: STR_OMNITOOL_ARTICLE
   - id: STR_HYPERNET
     type_id: 8
-    section: STR_ALIEN_LIFE_FORMS
+    section: STR_ALIEN_ARTIFACTS
     requires: [ STR_HYPERNET ]
     # image_id: HYPERNET_ufopaedia
     text: STR_HYPERNET_ARTICLE
   - id: STR_ALIEN_LANGUAGE
     type_id: 8
-    section: STR_ALIEN_LIFE_FORMS
+    section: STR_ALIEN_RESEARCH_UC
     requires: [ STR_ALIEN_LANGUAGE ]
     # image_id: ALIEN_LANGUAGE_ufopaedia
     text: STR_ALIEN_LANGUAGE_ARTICLE
-  - id: STR_SALARIAN_LANGUAGE
-    type_id: 8
-    section: STR_ALIEN_LIFE_FORMS
-    requires: [ STR_SALARIAN_LANGUAGE ]
-    # image_id: SALARIAN_LANGUAGE_ufopaedia
-    text: STR_SALARIAN_LANGUAGE_ARTICLE
-  - id: STR_ASARI_LANGUAGE
-    type_id: 8
-    section: STR_ALIEN_LIFE_FORMS
-    requires: [ STR_ASARI_LANGUAGE ]
-    # image_id: ASARI_LANGUAGE_ufopaedia
-    text: STR_ASARI_LANGUAGE_ARTICLE
-  - id: STR_TURIAN_LANGUAGE
-    type_id: 8
-    section: STR_ALIEN_LIFE_FORMS
-    requires: [ STR_TURIAN_LANGUAGE ]
-    # image_id: TURIAN_LANGUAGE_ufopaedia
-    text: STR_TURIAN_LANGUAGE_ARTICLE
-  - id: STR_BATARIAN_LANGUAGE
-    type_id: 8
-    section: STR_ALIEN_LIFE_FORMS
-    requires: [ STR_BATARIAN_LANGUAGE ]
-    # image_id: BATARIAN_LANGUAGE_ufopaedia
-    text: STR_BATARIAN_LANGUAGE_ARTICLE
-  - id: STR_VORCHA_LANGUAGE
-    type_id: 8
-    section: STR_ALIEN_LIFE_FORMS
-    requires: [ STR_VORCHA_LANGUAGE ]
-    # image_id: VORCHA_LANGUAGE_ufopaedia
-    text: STR_VORCHA_LANGUAGE_ARTICLE
-  - id: STR_KROGAN_LANGUAGE
-    type_id: 8
-    section: STR_ALIEN_LIFE_FORMS
-    requires: [ STR_KROGAN_LANGUAGE ]
-    # image_id: KROGAN_LANGUAGE_ufopaedia
-    text: STR_KROGAN_LANGUAGE_ARTICLE
-  - id: STR_DRELL_LANGUAGE
-    type_id: 8
-    section: STR_ALIEN_LIFE_FORMS
-    requires: [ STR_DRELL_LANGUAGE ]
-    # image_id: DRELL_LANGUAGE_ufopaedia
-    text: STR_DRELL_LANGUAGE_ARTICLE
-  - id: STR_QUARIAN_LANGUAGE
-    type_id: 8
-    section: STR_ALIEN_LIFE_FORMS
-    requires: [ STR_QUARIAN_LANGUAGE ]
-    # image_id: QUARIAN_LANGUAGE_ufopaedia
-    text: STR_QUARIAN_LANGUAGE_ARTICLE
 
   # Hypernet trawling
   # STR_TRAWLING_07: "Trawling: Other aliens, if any"
@@ -749,30 +491,14 @@ ufopaedia:
     # image_id: RETALIATION_ufopaedia
     text: STR_RETALIATION_ARTICLE
 
-  # Alien guns after closer inspection
-  - id: STR_ALIEN_PISTOL
-    type_id: 8
-    section: STR_ALIEN_ARTIFACTS
-    requires: [ STR_ALIEN_PISTOL ]
-    # image_id: ALIEN_PISTOL_ufopaedia
-    text: STR_ALIEN_PISTOL_ARTICLE
-  - id: STR_ALIEN_ASSAULT_RIFLE
-    type_id: 8
-    section: STR_ALIEN_ARTIFACTS
-    requires: [ STR_ALIEN_ASSAULT_RIFLE ]
-    # image_id: ALIEN_ASSAULT_RIFLE_ufopaedia
-    text: STR_ALIEN_ASSAULT_RIFLE_ARTICLE
-  - id: STR_ALIEN_SHOTGUN
-    type_id: 8
-    section: STR_ALIEN_ARTIFACTS
-    requires: [ STR_ALIEN_SHOTGUN ]
-    # image_id: ALIEN_SHOTGUN_ufopaedia
-    text: STR_ALIEN_SHOTGUN_ARTICLE
-  - id: STR_ALIEN_SNIPER_RIFLE
-    type_id: 8
-    section: STR_ALIEN_ARTIFACTS
-    requires: [ STR_ALIEN_SNIPER_RIFLE ]
-    # image_id: ALIEN_SNIPER_RIFLE_ufopaedia
-    text: STR_ALIEN_SNIPER_RIFLE_ARTICLE
 
-
+#    section: STR_ALIEN_ARTIFACTS
+#    section: STR_ALIEN_LIFE_FORMS
+#    section: STR_ALIEN_RESEARCH_UC
+#    section: STR_BASE_FACILITIES
+#    section: STR_HEAVY_WEAPONS_PLATFORMS
+#    section: STR_NOT_AVAILABLE
+#    section: STR_UFO_COMPONENTS
+#    section: STR_UFOS
+#    section: STR_WEAPONS_AND_EQUIPMENT
+#    section: STR_XCOM_CRAFT_ARMAMENT
