@@ -1,4 +1,5 @@
 en-US:
+  STR_UNOBTAINABLE: "Cannot be researched"
   # Alien species
   STR_BATARIAN: "4-eyed"
   STR_SALARIAN: "Horned"
