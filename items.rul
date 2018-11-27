@@ -105,7 +105,7 @@ items:
   #- delete: ALIEN_PSI_WEAPON
   - delete: STR_MEDI_KIT
 
-# Alien Weapons
+  # Alien Weapons
   - type: STR_ALIEN_PISTOL # =PLASMA_PISTOL
     requires:
       - STR_AGUNS
@@ -119,7 +119,7 @@ items:
     fireSound: 18
     hitSound: 19 # !!!!
     #hitAnimation: 36
-    power: 52
+    power: 50
     damageType: 1
     tuAuto: 30
     accuracyAuto: 50
@@ -192,10 +192,14 @@ items:
     bulletSprite: 8  # !!!!
     fireSound: 18
     #hitSound: !!!!
-    power: 115
+    power: 24
     damageType: 1
-    tuAuto: 35
-    accuracyAuto: 50
+    #tuAuto: 35
+    #accuracyAuto: 50
+    tuSnap: 30
+    accuracySnap: 86
+    tuAimed: 60
+    accuracyAimed: 100
     tuMelee: 10
     accuracyMelee: 50
     clipSize: -1
@@ -244,7 +248,7 @@ items:
     armor: 50
     #bulletSpeed: 10
     #autoShots: 10
-    shotgunPellets: 10
+    #shotgunPellets: 10
     #meleeSound:
     #meleeHitSound:
     #meleeAnimation:
@@ -339,4 +343,27 @@ items:
     recoveryPoints: 11
     recover: true
     armor: 40
+  - type: STR_DRELL_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 44
+    bigSprite: 45    #!!!!
+    floorSprite: 39  #!!!!
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 11
+    recover: true
+    armor: 40
+  - type: STR_VARREN_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 44
+    bigSprite: 45    #!!!!
+    floorSprite: 39  #!!!!
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 11
+    recover: true
+    armor: 40
+
 
