@@ -1,4 +1,5 @@
 ru:
+  STR_UNOBTAINABLE: "Невозможно исследовать"
   # Виды инопланетян
   STR_BATARIAN: "Четвероглаз"
   STR_SALARIAN: "Рогач"
