@@ -29,7 +29,7 @@ cutscenes:
           caption: STR_INTRO4
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 253
+          captionColor: 0
         - imagePath: cutscenes/empty-hangar.png
           caption: STR_INTRO5
           # captionSize: [195, 56]
@@ -39,9 +39,9 @@ cutscenes:
           caption: STR_INTRO6
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 253
+          captionColor: 96
         - imagePath: cutscenes/world-exclamations-salarian.png
           caption: STR_INTRO7
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 253
+          captionColor: 96
