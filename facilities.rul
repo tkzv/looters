@@ -16,3 +16,21 @@ facilities:
     radarChance: 100  # temporary !!!!
     hyper: true
 
+  - type: STR_MEDIGEL_BREWERY # =STR_HYPER_WAVE_DECODER 
+    requires: [ STR_MEDIGEL_BREWERY ]
+    spriteShape: 2
+    spriteFacility: 32
+    buildCost: 1000000
+    buildTime: 30
+    buildCostItems:
+      STR_OMNITOOL: 
+        build:  1
+        refund: 1
+      STR_MEDIGEL_SAMPLE:
+        build:  1
+        refund: 100
+    monthlyCost: 30000
+    sickBayAbsoluteBonus: 10
+    sickBayRelativeBonus: 50
+    mapName: XBASE_15
+    
