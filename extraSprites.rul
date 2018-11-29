@@ -119,3 +119,31 @@ extraSprites:
     height: 200
     files:
       0: bssprites/drell-m-a.png
+  - type: QUARIAN_SPRITES_M_U
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: bssprites/quarian-m-u.png
+  - type: QUARIAN_SPRITES_M_A
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: bssprites/quarian-m-a.png
+  - type: QUARIAN_SPRITES_F_U
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: bssprites/quarian-f-u.png
+  - type: QUARIAN_SPRITES_F_A
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: bssprites/quarian-f-a.png
