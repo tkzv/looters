@@ -15,33 +15,38 @@ cutscenes:
           # captionSize: [195, 56]
           # captionPos: [5, 0]
           captionColor: 253
-        - imagePath: cutscenes/dump-2.png
+        - imagePath: cutscenes/dump-1.png
           caption: STR_INTRO2
           # captionSize: [195, 56]
           # captionPos: [5, 0]
           captionColor: 253
-        - imagePath: cutscenes/dump-3.png
+        - imagePath: cutscenes/dump-2.png
           caption: STR_INTRO3
+          # captionSize: [195, 56]
+          # captionPos: [5, 0]
+          captionColor: 253
+        - imagePath: cutscenes/dump-3.png
+          caption: STR_INTRO4
           # captionSize: [195, 56]
           # captionPos: [5, 0]
           captionColor: 253 # !!!! 60
         - imagePath: cutscenes/salarians-firing.png
-          caption: STR_INTRO4
+          caption: STR_INTRO5
           # captionSize: [195, 56]
           # captionPos: [5, 0]
           captionColor: 0
         - imagePath: cutscenes/empty-hangar.png
-          caption: STR_INTRO5
+          caption: STR_INTRO6
           # captionSize: [195, 56]
           # captionPos: [5, 0]
           captionColor: 253
         - imagePath: cutscenes/world-exclamations-salarian.png
-          caption: STR_INTRO6
+          caption: STR_INTRO7
           # captionSize: [195, 56]
           # captionPos: [5, 0]
           captionColor: 96
         - imagePath: cutscenes/world-exclamations-salarian.png
-          caption: STR_INTRO7
+          caption: STR_INTRO8
           # captionSize: [195, 56]
           # captionPos: [5, 0]
           captionColor: 96
