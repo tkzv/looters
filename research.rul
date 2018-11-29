@@ -227,13 +227,46 @@ research:
   - name: STR_DRELL_PRELIMINARY
     requires: STR_UNOBTAINABLE
 
-  
-  - name: STR_SALARIAN_LANGUAGE
-  - name: STR_ASARI_LANGUAGE
-  - name: STR_TURIAN_LANGUAGE
-  - name: STR_BATARIAN_LANGUAGE
-  - name: STR_VORCHA_LANGUAGE
-  - name: STR_KROGAN_LANGUAGE
-  - name: STR_DRELL_LANGUAGE
-  - name: STR_QUARIAN_LANGUAGE
+  # попытки допроса без знания языка
+  - name: STR_BATARIAN_NO_LANGUAGE
+    cost: 625
+    unlocks:
+      STR_ALIEN_LANGUAGE
+      STR_BATARIAN_TALK
+  - name: STR_SALARIAN_NO_LANGUAGE
+    cost: 5
+    unlocks:
+      STR_ALIEN_LANGUAGE
+      STR_SALARIAN_TALK
+  - name: STR_VORCHA_NO_LANGUAGE
+    cost: 625
+    unlocks:
+      STR_ALIEN_LANGUAGE
+      STR_VORCHA_TALK
+  - name: STR_VARREN_NO_LANGUAGE
+    cost: 625
+  - name: STR_QUARIAN_NO_LANGUAGE
+    cost: 625
+    unlocks:
+      STR_ALIEN_LANGUAGE
+      STR_QUARIAN_TALK
+  - name: STR_ASARI_NO_LANGUAGE
+    cost: 625
+    unlocks:
+      STR_ALIEN_LANGUAGE
+      STR_ASARI_TALK
+  - name: STR_TURIAN_NO_LANGUAGE
+    cost: 625
+    unlocks:
+      STR_ALIEN_LANGUAGE
+      STR_TURIAN_TALK
+  - name: STR_KROGAN_NO_LANGUAGE
+    cost: 625
+    unlocks:
+      STR_ALIEN_LANGUAGE
+      STR_KROGAN_TALK
+
   - name: STR_ALIEN_LANGUAGE
+    requires: STR_UNOBTAINABLE
+    
+    
