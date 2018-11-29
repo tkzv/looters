@@ -23,7 +23,8 @@
      5. ~~ufos~~
      6. mission gives brief race information
      7. full race information replaces brief
-3. Replace regions.rul
+3. ~~Replace regions.rul~~
+   * use patching to stay CC0
 4. Remove elerium.
 5. Add 4+ sides.
    * raiders
