@@ -267,6 +267,17 @@ research:
       STR_KROGAN_TALK
 
   - name: STR_ALIEN_LANGUAGE
-    requires: STR_UNOBTAINABLE
-    
-    
+    cost: 0
+    dependencies:
+      STR_BATARIAN_NO_LANGUAGE
+      STR_SALARIAN_NO_LANGUAGE
+      STR_VORCHA_NO_LANGUAGE
+      STR_QUARIAN_NO_LANGUAGE
+      STR_ASARI_NO_LANGUAGE
+      STR_TURIAN_NO_LANGUAGE
+      STR_KROGAN_NO_LANGUAGE
+
+
+
+
+
