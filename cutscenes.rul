@@ -29,22 +29,22 @@ cutscenes:
           caption: STR_INTRO4
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 0
+          captionColor: 253
         - imagePath: cutscenes/salarians-firing.png
           caption: STR_INTRO5
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 253
+          captionColor: 0
         - imagePath: cutscenes/empty-hangar.png
           caption: STR_INTRO6
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 96
+          captionColor: 253
         - imagePath: cutscenes/world-exclamations-salarian.png
           caption: STR_INTRO7
           # captionSize: [195, 56]
           # captionPos: [5, 0]
-          captionColor: 96       
+          captionColor: 96
         - imagePath: cutscenes/world-exclamations-salarian.png
           caption: STR_INTRO8
           # captionSize: [195, 56]
