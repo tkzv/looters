@@ -188,10 +188,10 @@ en-US:
   #STR_CLONING_ARTICLE: "Earth science has figured out cloning in the middle of the 20th century. There were successful experiments with frogs, but the small size of mammal ovum (egg cell) was an obstacle, overcome only recently. The process requires a donor's ovum and a surrogate mother, takes as much time as growing a baby naturally and may lead to health defects due to damage to the genetic material being cloned.{NEWLINE}According to Hypernet, the latter hypothesis proved right. Adult DNA outside gametes (non-somatic cells) is damaged as the organism ages, and reversing the process riscs causing cancer. The lowest risc species all come from the planet of Dinos, where all organisms don't age, quickly mature physically (not mentally, though) and regenerate wery well, thanks to gene redundancy with voting.{NEWLINE}Technology to quickly clone and grow adult organisms do exist, but doing that to sentients is illegal, since it would require programming their brains. The ban seems to be pre-emptive, since we found no information of working brain programming methods."
   #STR_LONGETIVITY: ""
   #STR_LONGETIVITY_ARTICLE: ""
-  #STR_GENOPHAGE_TREATMENT: "Лечение геноеда"
-  #STR_GENOPHAGE_TREATMENT_ARTICLE: "Вследствие проигранной войны все ящеры заражены бактериологическим оружием 'геноедом' --  хронической болезнью, приводящей к массовой гибели потомства. Мы проанализировали доступные данные с целью узнать, может ли им помочь земной метод клонирования образца 1950х, и почему им не воспользовались."
+  #STR_GENOPHAGE_TREATMENT: "Cure for Gene-Eater"
+  #STR_GENOPHAGE_TREATMENT_ARTICLE: "Due to a lost war all Dinos were infected by a 'gene-eater' bacteriological weapon -- a chronic disease, leading to high rate of stillbirths. We analized the available data to find if Earth cloning method of 1950s can help here and why wasn't it used."
   #STR_GENOPHAGE_MEDIGEL: ""
-  #STR_GENOPHAGE_MEDIGEL_ARTICLE: "    This gives Fortress yet another reason to nume us."
+  #STR_GENOPHAGE_MEDIGEL_ARTICLE: "    This gives Fortress yet another reason to nuke us."
   #STR_TRAWLING_21: "Trawling: Alien wardogs"
   STR_VARREN_ARTICLE_2: "These reptiles resemble Earth theriodonts, combining traits of lizards and mammals. They come from the world of Dinos and share their compatriots' voraciosness and resilience. They can survive and reproduce anywhere with oxygen and protein life. They were spread through the galaxy when their masters were fighting their centuries-long wars: first against insects, then against everybody else. These days they are dangerous pests, occasionally used as attack dogs -- dangerous both to enemies and friends."
   #STR_TRAWLING_22: "Trawling: Additive Technologies"
@@ -204,6 +204,9 @@ en-US:
   STR_ALIEN_PATENT_LAWS: "Alien Patent Laws"
   STR_ALIEN_PATENT_LAWS_ARTICLE: ""
 
+  # Medigel
+  STR_MEDIGEL_SAMPLE: "Smelly Slime"
+  STR_MEDIGEL_SAMPLE_ARTICLE: "1-litre transparent vessel holding a jelly-like substance with a characteristic smell. Foind in a ship's sickbay.{NEWLINE}{NEWLINE}Its composition is a mixture of a number of unstudied organic compounds, including peptides and polysacharides. None of them are toxic.{NEWLINE}{NEWLINE}Applying the substance to open wounds of lab animals leads to quick -- visible -- healing. To accelerate healing of internal damage it's advisable to inject the substance by a syringe. Oral ingestion is ineffective, since components are easily broken by saliva and gastric juice, but will still help gastritis."
   STR_MEDIGEL_1: "Search for Medical Gel"
   STR_MEDIGEL_1_ARTICLE: "According to partial translation, Proto-Gods genetically engineered an Earth life form to produce a substance -- “medical gel” -- that greatly accelerates wound repairing. This has something to do with Earth ungulates, probably cows. Aliens spend a lot of time either stealing cattle or “extracting bilogical material”. The latter usually kills the animals.{NEWLINE}We should investigate the subject further. Capturing an Abductor should give us PDAs with passwords to access information on this project."
   STR_MEDIGEL_2: "Medgel SCOBY"
@@ -270,3 +273,5 @@ en-US:
   STR_INTRO7: "Although successfully hushed, the incident attracted enough international attention for other countries to look for -- and find -- traces of alien influence in the highest places.{NEWLINE}{NEWLINE}The mysterious aliens -- dubbed “Salarians” after the incident place -- have been paying people to stay unseen for years."
   STR_INTRO8: "Thus the Extraterrestial Combat Network was founded.{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}Nobody knows where you are or what you are doing. Nobody on Earth can hinder you.{NEWLINE}{NEWLINE}If Salarians don't want us to know about UFOs in our skies, find out what those UFOs are.{NEWLINE}{NEWLINE}{NEWLINE}Good luck."
 
+  STR_CACTUS_SAKSAUL: "Misplaced Plants"
+  STR_CACTUS_SAKSAUL_ARTICLE: "Aliens often place bases in desolate places, including deserts. They oftem plant plants to mask them. Fortunately for us, their understanding of Earth biogeography is still inadequate and they mix up continents. Thus, if you see wild cactuses in the Eastern hemisphere or saksauls in America, know that the aleins are near."
