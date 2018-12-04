@@ -275,3 +275,11 @@ en-US:
 
   STR_CACTUS_SAKSAUL: "Misplaced Plants"
   STR_CACTUS_SAKSAUL_ARTICLE: "Aliens often place bases in desolate places, including deserts. They oftem plant plants to mask them. Fortunately for us, their understanding of Earth biogeography is still inadequate and they mix up continents. Thus, if you see wild cactuses in the Eastern hemisphere or saksauls in America, know that the aleins are near."
+
+  # Adapted weapons
+  STR_ADAPTING_ALIEN_GUNS: "Adapting Alien Guns"
+  STR_ADAPTING_ALIEN_GUNS_ARTICLE: "Alien infantry weapons could benefit from better heatsinks. We should be able to create wehicle-mounted weapons with slightly better muzzle energy and much higher rate of fire. Considering the characteristics of alien weapons, such upgrade would only be cost-effective for the most powerful and long-ranged pieces."
+  STR_4_RIFLES: "Quadruple AA guns"
+  STR_4_RIFLES_ARTICLE: "We've figured out how to attach better heatsinks to alien guns. The weapon becomes too heavy to be man-portable, but reasonably light for our aircraft. Unfortunately, only sniper rifles have enough petetrative power and enough precision beyond dogfight range. A bundle of four guns provides adequate rate of fire."
+  STR_AA_DEFENCES: "Anti-Aircraft Gun Emplacement"
+  STR_AA_DEFENCES_ARTICLE: "Just four hundred alien sniper guns fitted to aiming mechanisms. We will have only one shot, so we need numbers rather than rate of fire."
