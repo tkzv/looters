@@ -33,4 +33,24 @@ facilities:
     sickBayAbsoluteBonus: 10
     sickBayRelativeBonus: 50
     mapName: XBASE_15
-    
+
+  - type: STR_AA_DEFENCES # = STR_LASER_DEFENSES
+    requires: [ STR_AA_DEFENCES ]
+    spriteShape: 3 
+    spriteFacility: 26 
+    buildCost: 400000 
+    buildTime: 14
+    buildCostItems:
+      STR_OMNITOOL: 
+        build:  1
+        refund: 1
+      STR_ALIEN_SNIPER_RIFLE:
+        build:  400
+        refund: 400
+    monthlyCost: 10000 
+    defense: 800 
+    hitRatio: 100 
+    fireSound: 8 
+    hitSound: 10 
+    mapName: XBASE_09
+
