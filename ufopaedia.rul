@@ -502,3 +502,24 @@ ufopaedia:
 #    section: STR_UFOS
 #    section: STR_WEAPONS_AND_EQUIPMENT
 #    section: STR_XCOM_CRAFT_ARMAMENT
+
+
+  # New facilities
+  - id: STR_MEDIGEL_BREWERY
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_MEDIGEL_BREWERY_ARTICLE
+    requires:
+      - STR_MEDIGEL_BREWERY
+  - id: STR_AA_DEFENCES
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_AA_DEFENCES_ARTICLE
+    requires:
+      - STR_AA_DEFENCES
+  - id: STR_AA_RAIL_GUNS
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_AA_RAIL_GUNS_ARTICLE
+    requires:
+      - STR_AA_RAIL_GUNS
