@@ -283,3 +283,8 @@ en-US:
   STR_4_RIFLES_ARTICLE: "We've figured out how to attach better heatsinks to alien guns. The weapon becomes too heavy to be man-portable, but reasonably light for our aircraft. Unfortunately, only sniper rifles have enough petetrative power and enough precision beyond dogfight range. A bundle of four guns provides adequate rate of fire."
   STR_AA_DEFENCES: "Anti-Aircraft Gun Emplacement"
   STR_AA_DEFENCES_ARTICLE: "Just four hundred alien sniper guns fitted to aiming mechanisms. We will have only one shot, so we need numbers rather than rate of fire."
+  STR_RAIL_GUN: "Rail Gun"
+  STR_RAIL_GUN_ARTICLE: "This kind of rail gun turret is normally installed to large ships in addition to the main spinal gun. We don't have the craft for it yet, but we may be able to defend our bases with it."
+  STR_AA_RAIL_GUNS: "Rail Gun Air Defence"
+  STR_AA_RAIL_GUNS_ARTICLE: "Four imported rail turrets will shoot down any ship -- provided they can hit it."
+
