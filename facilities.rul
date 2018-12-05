@@ -54,3 +54,21 @@ facilities:
     hitSound: 10 
     mapName: XBASE_09
 
+  - type: STR_AA_RAIL_GUNS # =STR_FUSION_BALL_DEFENSES
+    requires:
+      - STR_AA_RAIL_GUNS
+    spriteShape: 3
+    spriteFacility: 28
+    buildCost: 100000
+    buildTime: 34
+    buildCostItems:
+      STR_RAIL_GUN: 
+        build:  4
+        refund: 4
+    monthlyCost: 14000
+    defense: 1200
+    hitRatio: 80
+    fireSound: 7
+    hitSound: 10
+    mapName: XBASE_11
+
