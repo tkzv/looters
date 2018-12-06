@@ -147,3 +147,175 @@ extraSprites:
     height: 200
     files:
       0: bssprites/quarian-f-a.png
+
+  # Enemy inventories
+  - type: ASARI_A_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/asari-a-inventory.png
+  - type: ASARI_U_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/asari-u-inventory.png
+  - type: BATARIAN_A_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/batarian-a-inventory.png
+  - type: BATARIAN_U_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/batarian-u-inventory.png
+  - type: KROGAN_A_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/krogan-a-inventory.png
+  - type: KROGAN_U_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/krogan-u-inventory.png
+  - type: QUARIAN_F_A_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/quarian-f-a-inventory.png
+  - type: QUARIAN_F_U_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/quarian-f-u-inventory.png
+  - type: QUARIAN_M_A_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/quarian-m-a-inventory.png
+  - type: QUARIAN_M_U_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/quarian-m-u-inventory.png
+  - type: SALARIAN_A_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/salarian-a-inventory.png
+  - type: SALARIAN_U_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/salarian-u-inventory.png
+  - type: TURIAN_F_A_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/turian-f-a-inventory.png
+  - type: TURIAN_F_U_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/turian-f-u-inventory.png
+  - type: TURIAN_M_A_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/turian-m-a-inventory.png
+  - type: TURIAN_M_U_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/turian-m-u-inventory.png
+  - type: VARREN_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/varren-inventory.png
+  - type: VORCHA_INVENTORY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: bssprites/vorcha-inventory.png
+
+  # Alien species in Ufopaedia
+  - type: ASARI_UFOPAEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: ufopaedia/asari-ufopedia.png
+  - type: KROGAN_UFOPAEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: ufopaedia/krogan-ufopedia.png
+  - type: SALARIAN_UFOPAEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: ufopaedia/salarian-ufopedia.png
+  - type: TURIAN_UFOPAEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: ufopaedia/turian-ufopedia.png
+  - type: VORCHA_UFOPAEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: ufopaedia/vorcha-ufopedia.png
+#  - type: BATARIAN_UFOPAEDIA
+#    width: 320
+#    height: 200
+#    singleImage: true
+#    files:
+#      0: ufopaedia/batarian-ufopedia.png
+#  - type: QUARIAN_UFOPAEDIA
+#    width: 320
+#    height: 200
+#    singleImage: true
+#    files:
+#      0: ufopaedia/quarian-ufopedia.png
+#  - type: DRELL_UFOPAEDIA
+#    width: 320
+#    height: 200
+#    singleImage: true
+#    files:
+#      0: ufopaedia/drell-ufopedia.png
+#  - type: VARREN_UFOPAEDIA
+#    width: 320
+#    height: 200
+#    singleImage: true
+#    files:
+#      0: ufopaedia/varren-ufopedia.png
+#  - type: _UFOPAEDIA
+#    width: 320
+#    height: 200
+#    singleImage: true
+#    files:
+#      0: ufopaedia/-ufopedia.png
