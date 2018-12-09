@@ -1,0 +1,9 @@
+musics:
+  - type: CONSPIRI
+#    normalization: 3
+  - type: music-stereo
+    normalization: 2
+  - type: music
+    normalization: 2
+  - type: forogg
+    normalization: 2
