@@ -295,12 +295,12 @@ extraSprites:
 #    singleImage: true
 #    files:
 #      0: ufopaedia/batarian-ufopedia.png
-#  - type: QUARIAN_UFOPAEDIA
-#    width: 320
-#    height: 200
-#    singleImage: true
-#    files:
-#      0: ufopaedia/quarian-ufopedia.png
+  - type: QUARIAN_UFOPAEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: ufopaedia/quarian-ufopedia.png
 #  - type: DRELL_UFOPAEDIA
 #    width: 320
 #    height: 200

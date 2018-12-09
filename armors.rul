@@ -31,7 +31,7 @@ armors:
   - type: VORCHA_ARMOR0
     spriteSheet: VORCHA_SPRITES
     drawingRoutine: 4
-    #spriteInv: VORCHA_INV
+    spriteInv: VORCHA_INVENTORY
     # spriteFaceGroup, spriteFaceColor, spriteHairGroup, spriteHairColor, spriteUtileGroup, spriteUtileColor, spriteRankGroup, spriteRankColor
     corpseBattle:
       - STR_VORCHA_CORPSE
@@ -55,7 +55,7 @@ armors:
   - type: VARREN_ARMOR0
     spriteSheet: VARREN_SPRITES
     drawingRoutine: 4
-    #spriteInv: VARREN_INV
+    #spriteInv: VARREN_INVENTORY
     # spriteFaceGroup, spriteFaceColor, spriteHairGroup, spriteHairColor, spriteUtileGroup, spriteUtileColor, spriteRankGroup, spriteRankColor
     corpseBattle:
       - STR_VARREN_CORPSE
@@ -79,7 +79,7 @@ armors:
   - type: KROGAN_ARMOR0
     spriteSheet: KROGAN_SPRITES_U # unarmoured
     drawingRoutine: 4
-    #spriteInv: KROGAN_INV
+    spriteInv: KROGAN_U_INVENTORY
     corpseBattle:
       - STR_KROGAN_CORPSE
     frontArmor: 5
@@ -102,7 +102,7 @@ armors:
   - type: KROGAN_ARMOR1
     spriteSheet: KROGAN_SPRITES_A # red armour
     drawingRoutine: 4
-    #spriteInv: KROGAN_INV
+    spriteInv: KROGAN_A_INVENTORY
     corpseBattle:
       - STR_KROGAN_CORPSE
     frontArmor: 50
@@ -124,7 +124,7 @@ armors:
 
   - type: BATARIAN_ARMOR0
     spriteSheet: BATARIAN_SPRITES_M_U
-    #spriteInv: BATARIAN_INV
+    spriteInv: BATARIAN_M_U_INVENTORY
     corpseBattle:
       - STR_BATARIAN_CORPSE
     frontArmor: 4
@@ -147,7 +147,7 @@ armors:
 
   - type: BATARIAN_ARMOR1
     spriteSheet: BATARIAN_SPRITES_M_A
-    #spriteInv: BATARIAN_INV
+    spriteInv: BATARIAN_M_A_INVENTORY
     corpseBattle:
       - STR_BATARIAN_CORPSE
     frontArmor: 20
@@ -169,7 +169,7 @@ armors:
 
   - type: SALARIAN_ARMOR0
     spriteSheet: SALARIAN_SPRITES_U
-    #spriteInv: SALARIAN_INV
+    spriteInv: SALARIAN_U_INVENTORY
     corpseBattle:
       - STR_SALARIAN_CORPSE
     frontArmor: 2
@@ -191,7 +191,7 @@ armors:
 
   - type: SALARIAN_ARMOR1
     spriteSheet: SALARIAN_SPRITES_A
-    #spriteInv: SALARIAN_INV
+    spriteInv: SALARIAN_A_INVENTORY
     corpseBattle:
       - STR_SALARIAN_CORPSE
     frontArmor: 20
@@ -213,7 +213,7 @@ armors:
 
   - type: ASARI_ARMOR0
     spriteSheet: ASARI_SPRITES_U
-    #spriteInv: ASARI_INV
+    spriteInv: ASARI_U_INVENTORY
     corpseBattle:
       - STR_ASARI_CORPSE
     frontArmor: 4
@@ -235,7 +235,7 @@ armors:
 
   - type: ASARI_ARMOR1
     spriteSheet: ASARI_SPRITES_A
-    #spriteInv: ASARI_INV
+    spriteInv: ASARI_A_INVENTORY
     corpseBattle:
       - STR_ASARI_CORPSE
     frontArmor: 20
@@ -257,7 +257,7 @@ armors:
 
   - type: TURIAN_ARMOR0
     spriteSheet: TURIAN_SPRITES_M_U
-    #spriteInv: TURIAN_INV
+    spriteInv: TURIAN_M_U_INVENTORY
     corpseBattle:
       - STR_TURIAN_CORPSE
     frontArmor: 10
@@ -279,7 +279,7 @@ armors:
 
   - type: TURIAN_ARMOR1
     spriteSheet: TURIAN_SPRITES_F_U
-    #spriteInv: TURIAN_INV
+    spriteInv: TURIAN_F_U_INVENTORY
     corpseBattle:
       - STR_TURIAN_CORPSE
     frontArmor: 10
@@ -301,7 +301,7 @@ armors:
 
   - type: TURIAN_ARMOR2
     spriteSheet: TURIAN_SPRITES_M_A
-    #spriteInv: TURIAN_INV
+    spriteInv: TURIAN_M_A_INVENTORY
     corpseBattle:
       - STR_TURIAN_CORPSE
     frontArmor: 30
@@ -323,7 +323,7 @@ armors:
 
   - type: TURIAN_ARMOR4
     spriteSheet: TURIAN_SPRITES_F_A
-    #spriteInv: TURIAN_INV
+    spriteInv: TURIAN_F_A_INVENTORY
     corpseBattle:
       - STR_TURIAN_CORPSE
     frontArmor: 30
@@ -344,8 +344,8 @@ armors:
     loftempsSet: [ 4 ]
 
   - type: DRELL_ARMOR0
-    spriteSheet: DRELL_SPRITES
-    spriteInv: DRELL_INV
+    spriteSheet: DRELL_M_A_SPRITES
+    spriteInv: DRELL_M_A_INVENTORY
     corpseBattle:
       - STR_DRELL_CORPSE
     frontArmor: 20
@@ -367,7 +367,7 @@ armors:
 
   - type: QUARIAN_ARMOR0
     spriteSheet: QUARIAN_SPRITES_M_A
-    #spriteInv: QUARIAN_INV
+    spriteInv: QUARIAN_M_A_INVENTORY
     corpseBattle:
       - STR_QUARIAN_CORPSE
     frontArmor: 20
@@ -389,7 +389,7 @@ armors:
 
   - type: QUARIAN_ARMOR1
     spriteSheet: QUARIAN_SPRITES_F_A
-    #spriteInv: QUARIAN_INV
+    spriteInv: QUARIAN_F_A_INVENTORY
     corpseBattle:
       - STR_QUARIAN_CORPSE
     frontArmor: 20
