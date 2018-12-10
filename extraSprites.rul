@@ -319,3 +319,32 @@ extraSprites:
 #    singleImage: true
 #    files:
 #      0: ufopaedia/-ufopedia.png
+  - type: FLOOROB.PCK
+    files:
+      100: bssprites/asari-a-corpse.png
+      101: bssprites/asari-u-corpse.png
+      #110: bssprites/batarian-f-a-corpse.png
+      #111: bssprites/batarian-f-u-corpse.png
+      112: bssprites/batarian-m-a-corpse.png
+      #113: bssprites/batarian-m-u-corpse.png
+      #120: bssprites/collector-corpse.png
+      #132: bssprites/drell-m-a-corpse.png
+      #140: bssprites/elcor-corpse.png
+      #150: bssprites/hanar-corpse.png
+      #160: bssprites/harvester-corpse.png
+      170: bssprites/krogan-a-corpse.png
+      171: bssprites/krogan-u-corpse.png
+      #180: bssprites/pyjak-corpse.png
+      190: bssprites/quarian-f-a-corpse.png
+      191: bssprites/quarian-m-a-corpse.png
+      200: bssprites/salarian-a-corpse.png
+      201: bssprites/salarian-u-corpse.png
+      #210: bssprites/thresher-corpse.png
+      220: bssprites/turian-f-a-corpse.png
+      221: bssprites/turian-f-u-corpse.png
+      222: bssprites/turian-m-a-corpse.png
+      223: bssprites/turian-m-u-corpse.png
+      230: bssprites/varren-corpse.png
+      #240: bssprites/volus-corpse.png
+      250: bssprites/vorcha-corpse.png
+      #260: bssprites/yagh-corpse.png
