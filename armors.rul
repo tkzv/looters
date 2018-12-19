@@ -81,7 +81,7 @@ armors:
     drawingRoutine: 4
     spriteInv: KROGAN_INVENTORY_U
     corpseBattle:
-      - STR_KROGAN_CORPSE
+      - STR_KROGAN_U_CORPSE
     frontArmor: 5
     sideArmor:  5
     rearArmor:  5
@@ -126,7 +126,7 @@ armors:
     spriteSheet: BATARIAN_SPRITES_M_U
     spriteInv: BATARIAN_INVENTORY_M_U
     corpseBattle:
-      - STR_BATARIAN_CORPSE
+      - STR_BATARIAN_M_U_CORPSE
     frontArmor: 4
     sideArmor: 3
     rearArmor: 2
@@ -149,7 +149,7 @@ armors:
     spriteSheet: BATARIAN_SPRITES_M_A
     spriteInv: BATARIAN_INVENTORY_M_A
     corpseBattle:
-      - STR_BATARIAN_CORPSE
+      - STR_BATARIAN_M_A_CORPSE
     frontArmor: 20
     sideArmor: 20
     rearArmor: 20
@@ -171,7 +171,7 @@ armors:
     spriteSheet: SALARIAN_SPRITES_U
     spriteInv: SALARIAN_INVENTORY_U
     corpseBattle:
-      - STR_SALARIAN_CORPSE
+      - STR_SALARIAN_U_CORPSE
     frontArmor: 2
     sideArmor: 2
     rearArmor: 2
@@ -193,7 +193,7 @@ armors:
     spriteSheet: SALARIAN_SPRITES_A
     spriteInv: SALARIAN_INVENTORY_A
     corpseBattle:
-      - STR_SALARIAN_CORPSE
+      - STR_SALARIAN_A_CORPSE
     frontArmor: 20
     sideArmor: 20
     rearArmor: 20
@@ -215,7 +215,7 @@ armors:
     spriteSheet: ASARI_SPRITES_U
     spriteInv: ASARI_INVENTORY_U
     corpseBattle:
-      - STR_ASARI_CORPSE
+      - STR_ASARI_U_CORPSE
     frontArmor: 4
     sideArmor: 3
     rearArmor: 2
@@ -237,7 +237,7 @@ armors:
     spriteSheet: ASARI_SPRITES_A
     spriteInv: ASARI_INVENTORY_A
     corpseBattle:
-      - STR_ASARI_CORPSE
+      - STR_ASARI_A_CORPSE
     frontArmor: 20
     sideArmor: 20
     rearArmor: 20
@@ -259,7 +259,7 @@ armors:
     spriteSheet: TURIAN_SPRITES_M_U
     spriteInv: TURIAN_INVENTORY_M_U
     corpseBattle:
-      - STR_TURIAN_CORPSE
+      - STR_TURIAN_M_U_CORPSE
     frontArmor: 10
     sideArmor: 10
     rearArmor: 10
@@ -281,7 +281,7 @@ armors:
     spriteSheet: TURIAN_SPRITES_F_U
     spriteInv: TURIAN_INVENTORY_F_U
     corpseBattle:
-      - STR_TURIAN_CORPSE
+      - STR_TURIAN_F_U_CORPSE
     frontArmor: 10
     sideArmor: 10
     rearArmor: 10
@@ -303,7 +303,7 @@ armors:
     spriteSheet: TURIAN_SPRITES_M_A
     spriteInv: TURIAN_INVENTORY_M_A
     corpseBattle:
-      - STR_TURIAN_CORPSE
+      - STR_TURIAN_M_A_CORPSE
     frontArmor: 30
     sideArmor: 30
     rearArmor: 30
@@ -325,7 +325,7 @@ armors:
     spriteSheet: TURIAN_SPRITES_F_A
     spriteInv: TURIAN_INVENTORY_F_A
     corpseBattle:
-      - STR_TURIAN_CORPSE
+      - STR_TURIAN_F_A_CORPSE
     frontArmor: 30
     sideArmor: 30
     rearArmor: 30
@@ -347,7 +347,7 @@ armors:
     spriteSheet: DRELL_SPRITES_M_A
     spriteInv: DRELL_INVENTORY_M_A
     corpseBattle:
-      - STR_DRELL_CORPSE
+      - STR_DRELL_M_A_CORPSE
     frontArmor: 20
     sideArmor: 20
     rearArmor: 20
@@ -369,7 +369,7 @@ armors:
     spriteSheet: QUARIAN_SPRITES_M_A
     spriteInv: QUARIAN_INVENTORY_M_A
     corpseBattle:
-      - STR_QUARIAN_CORPSE
+      - STR_QUARIAN_M_A_CORPSE
     frontArmor: 20
     sideArmor: 20
     rearArmor: 20
@@ -391,7 +391,7 @@ armors:
     spriteSheet: QUARIAN_SPRITES_F_A
     spriteInv: QUARIAN_INVENTORY_F_A
     corpseBattle:
-      - STR_QUARIAN_CORPSE
+      - STR_QUARIAN_F_A_CORPSE
     frontArmor: 20
     sideArmor: 20
     rearArmor: 20
@@ -408,3 +408,4 @@ armors:
       - 0.5 #Acid
       - 0.0 #Smoke
     loftempsSet: [ 4 ]
+
