@@ -119,13 +119,13 @@ extraSprites:
     height: 200
     files:
       0: bssprites/drell-m-a.png
-  - type: QUARIAN_SPRITES_M_U
-    subX: 32
-    subY: 40
-    width: 512
-    height: 200
-    files:
-      0: bssprites/quarian-m-u.png
+#  - type: QUARIAN_SPRITES_M_U
+#    subX: 32
+#    subY: 40
+#    width: 512
+#    height: 200
+#    files:
+#      0: bssprites/quarian-m-u.png
   - type: QUARIAN_SPRITES_M_A
     subX: 32
     subY: 40
@@ -133,13 +133,13 @@ extraSprites:
     height: 200
     files:
       0: bssprites/quarian-m-a.png
-  - type: QUARIAN_SPRITES_F_U
-    subX: 32
-    subY: 40
-    width: 512
-    height: 200
-    files:
-      0: bssprites/quarian-f-u.png
+#  - type: QUARIAN_SPRITES_F_U
+#    subX: 32
+#    subY: 40
+#    width: 512
+#    height: 200
+#    files:
+#      0: bssprites/quarian-f-u.png
   - type: QUARIAN_SPRITES_F_A
     subX: 32
     subY: 40
@@ -149,97 +149,97 @@ extraSprites:
       0: bssprites/quarian-f-a.png
 
   # Enemy inventories
-  - type: ASARI_A_INVENTORY
+  - type: ASARI_INVENTORY_A
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/asari-a-inventory.png
-  - type: ASARI_U_INVENTORY
+  - type: ASARI_INVENTORY_U
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/asari-u-inventory.png
-  - type: BATARIAN_A_INVENTORY
+  - type: BATARIAN_INVENTORY_M_A
     width: 320
     height: 200
     singleImage: true
     files:
-      0: bssprites/batarian-a-inventory.png
-  - type: BATARIAN_U_INVENTORY
+      0: bssprites/batarian-m-a-inventory.png
+  - type: BATARIAN_INVENTORY_M_U
     width: 320
     height: 200
     singleImage: true
     files:
-      0: bssprites/batarian-u-inventory.png
-  - type: KROGAN_A_INVENTORY
+      0: bssprites/batarian-m-u-inventory.png
+  - type: KROGAN_INVENTORY_A
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/krogan-a-inventory.png
-  - type: KROGAN_U_INVENTORY
+  - type: KROGAN_INVENTORY_U
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/krogan-u-inventory.png
-  - type: QUARIAN_F_A_INVENTORY
+  - type: QUARIAN_INVENTORY_F_A
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/quarian-f-a-inventory.png
-  - type: QUARIAN_F_U_INVENTORY
+  - type: QUARIAN_INVENTORY_F_U
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/quarian-f-u-inventory.png
-  - type: QUARIAN_M_A_INVENTORY
+  - type: QUARIAN_INVENTORY_M_A
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/quarian-m-a-inventory.png
-  - type: QUARIAN_M_U_INVENTORY
+  - type: QUARIAN_INVENTORY_M_U
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/quarian-m-u-inventory.png
-  - type: SALARIAN_A_INVENTORY
+  - type: SALARIAN_INVENTORY_A
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/salarian-a-inventory.png
-  - type: SALARIAN_U_INVENTORY
+  - type: SALARIAN_INVENTORY_U
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/salarian-u-inventory.png
-  - type: TURIAN_F_A_INVENTORY
+  - type: TURIAN_INVENTORY_F_A
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/turian-f-a-inventory.png
-  - type: TURIAN_F_U_INVENTORY
+  - type: TURIAN_INVENTORY_F_U
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/turian-f-u-inventory.png
-  - type: TURIAN_M_A_INVENTORY
+  - type: TURIAN_INVENTORY_M_A
     width: 320
     height: 200
     singleImage: true
     files:
       0: bssprites/turian-m-a-inventory.png
-  - type: TURIAN_M_U_INVENTORY
+  - type: TURIAN_INVENTORY_M_U
     width: 320
     height: 200
     singleImage: true

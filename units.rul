@@ -171,6 +171,29 @@ units:
     intelligence: 3
     aggression: 2
 
+  - type: STR_QUARIAN
+    race: STR_QUARIAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 80
+      health: 80
+      bravery: 30
+      reactions: 40
+      firing: 60
+      throwing: 60
+      strength: 50
+      psiStrength: 0
+      psiSkill: 0
+      melee: 50
+    armor: QUARIAN_ARMOR0
+    standHeight: 21
+    kneelHeight: 14
+    value: 10
+    deathSound: 10
+    intelligence: 3
+    aggression: 1
+
   - type: STR_DRELL # _MESSENGER
     race: STR_DRELL
     rank: STR_LIVE_SOLDIER
