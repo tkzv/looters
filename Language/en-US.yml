@@ -331,4 +331,24 @@ en-US:
   STR_INVESTIGATION_: ""
   STR_INVESTIGATION__ARTICLE: ""
 
+  # Multiple identical datapads
+  STR_DATAPAD_00: "Data tablet"
+  STR_DATAPAD_00_ARTICLE: "An electronic device similar in purpose and capabilities to simplest Earth PDAs. Can store and display textual information, can interface with full-flegded computers. The display is very simplistic, a somewhat refined version of Earth Gyricon display technology.{NEWLINE}{NEWLINE}Those tablets play the role of reusable paper notes, and seem to be about as cheap.{NEWLINE}{NEWLINE}Most data is hard to understand without context and is likely to prove some minutiae useless to us. But we need to study all of them just in case."
+  STR_DATAPAD_01: "Data tablet"
+  STR_DATAPAD_02: "Data tablet"
+  STR_DATAPAD_03: "Data tablet"
+  STR_DATAPAD_04: "Data tablet"
+  STR_DATAPAD_05: "Data tablet"
+  STR_DATAPAD_06: "Data tablet"
+  STR_DATAPAD_07: "Data tablet"
+  STR_DATAPAD_08: "Data tablet"
+  STR_DATAPAD_09: "Data tablet"
+  STR_DATAPAD_10: "Data tablet"
+  STR_DATAPAD_11: "Data tablet"
+  STR_DATAPAD_12: "Data tablet"
+  STR_DATAPAD_13: "Data tablet"
+  STR_DATAPAD_14: "Data tablet"
+  STR_DATAPAD_15: "Data tablet"
+  STR_DATAPAD_16: "Data tablet"
+
 
