@@ -120,6 +120,7 @@ armors:
 
   - type: BATARIAN_ARMOR0
     spriteSheet: BATARIAN_SPRITES_M_U
+    drawingRoutine: 4
     spriteInv: BATARIAN_INVENTORY_M_U
     corpseBattle: [ STR_BATARIAN_M_U_CORPSE ]
     frontArmor: 4
@@ -142,6 +143,7 @@ armors:
 
   - type: BATARIAN_ARMOR1
     spriteSheet: BATARIAN_SPRITES_M_A
+    drawingRoutine: 4
     spriteInv: BATARIAN_INVENTORY_M_A
     corpseBattle: [ STR_BATARIAN_M_A_CORPSE ]
     frontArmor: 20
@@ -163,6 +165,7 @@ armors:
 
   - type: SALARIAN_ARMOR0
     spriteSheet: SALARIAN_SPRITES_U
+    drawingRoutine: 4
     spriteInv: SALARIAN_INVENTORY_U
     corpseBattle: [ STR_SALARIAN_U_CORPSE ]
     frontArmor: 2
@@ -184,6 +187,7 @@ armors:
 
   - type: SALARIAN_ARMOR1
     spriteSheet: SALARIAN_SPRITES_A
+    drawingRoutine: 4
     spriteInv: SALARIAN_INVENTORY_A
     corpseBattle: [ STR_SALARIAN_A_CORPSE ]
     frontArmor: 20
@@ -205,6 +209,7 @@ armors:
 
   - type: ASARI_ARMOR0
     spriteSheet: ASARI_SPRITES_U
+    drawingRoutine: 4
     spriteInv: ASARI_INVENTORY_U
     corpseBattle: [ STR_ASARI_U_CORPSE ]
     frontArmor: 4
@@ -226,6 +231,7 @@ armors:
 
   - type: ASARI_ARMOR1
     spriteSheet: ASARI_SPRITES_A
+    drawingRoutine: 4
     spriteInv: ASARI_INVENTORY_A
     corpseBattle: [ STR_ASARI_A_CORPSE ]
     frontArmor: 20
@@ -247,6 +253,7 @@ armors:
 
   - type: TURIAN_ARMOR0
     spriteSheet: TURIAN_SPRITES_M_U
+    drawingRoutine: 4
     spriteInv: TURIAN_INVENTORY_M_U
     corpseBattle: [ STR_TURIAN_M_U_CORPSE ]
     frontArmor: 10
@@ -268,6 +275,7 @@ armors:
 
   - type: TURIAN_ARMOR1
     spriteSheet: TURIAN_SPRITES_F_U
+    drawingRoutine: 4
     spriteInv: TURIAN_INVENTORY_F_U
     corpseBattle: [ STR_TURIAN_F_U_CORPSE ]
     frontArmor: 10
@@ -289,6 +297,7 @@ armors:
 
   - type: TURIAN_ARMOR2
     spriteSheet: TURIAN_SPRITES_M_A
+    drawingRoutine: 4
     spriteInv: TURIAN_INVENTORY_M_A
     corpseBattle: [ STR_TURIAN_M_A_CORPSE ]
     frontArmor: 30
@@ -310,6 +319,7 @@ armors:
 
   - type: TURIAN_ARMOR4
     spriteSheet: TURIAN_SPRITES_F_A
+    drawingRoutine: 4
     spriteInv: TURIAN_INVENTORY_F_A
     corpseBattle: [ STR_TURIAN_F_A_CORPSE ]
     frontArmor: 30
@@ -331,6 +341,7 @@ armors:
 
   - type: DRELL_ARMOR0
     spriteSheet: DRELL_SPRITES_M_A
+    drawingRoutine: 4
     spriteInv: DRELL_INVENTORY_M_A
     corpseBattle: [ STR_DRELL_M_A_CORPSE ]
     frontArmor: 20
@@ -352,6 +363,7 @@ armors:
 
   - type: QUARIAN_ARMOR0
     spriteSheet: QUARIAN_SPRITES_M_A
+    drawingRoutine: 4
     spriteInv: QUARIAN_INVENTORY_M_A
     corpseBattle: [ STR_QUARIAN_M_A_CORPSE ]
     frontArmor: 20
@@ -373,6 +385,7 @@ armors:
 
   - type: QUARIAN_ARMOR1
     spriteSheet: QUARIAN_SPRITES_F_A
+    drawingRoutine: 4
     spriteInv: QUARIAN_INVENTORY_F_A
     corpseBattle: [ STR_QUARIAN_F_A_CORPSE ]
     frontArmor: 20
