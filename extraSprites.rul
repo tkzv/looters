@@ -326,7 +326,7 @@ extraSprites:
       #110: bssprites/batarian-f-a-corpse.png
       #111: bssprites/batarian-f-u-corpse.png
       112: bssprites/batarian-m-a-corpse.png
-      #113: bssprites/batarian-m-u-corpse.png
+      113: bssprites/batarian-m-u-corpse.png
       #120: bssprites/collector-corpse.png
       #132: bssprites/drell-m-a-corpse.png
       #140: bssprites/elcor-corpse.png
