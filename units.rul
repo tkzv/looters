@@ -194,25 +194,26 @@ units:
     intelligence: 3
     aggression: 1
 
-  - type: STR_DRELL # _MESSENGER
-    race: STR_DRELL
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 100
-      stamina: 100
-      health: 100
-      bravery: 0     # !!!!
-      reactions: 60
-      firing: 80
-      throwing: 80
-      strength: 80
-      psiStrength: 0
-      psiSkill: 0
-      melee: 80
-    armor: DRELL_ARMOR0
-    standHeight: 21
-    kneelHeight: 14
-    value: 10
-    deathSound: 10
-    intelligence: 3
-    aggression: 2
+#  - type: STR_DRELL # _MESSENGER
+#    race: STR_DRELL
+#    rank: STR_LIVE_SOLDIER
+#    stats:
+#      tu: 100
+#      stamina: 100
+#      health: 100
+#      bravery: 0     # !!!!
+#      reactions: 60
+#      firing: 80
+#      throwing: 80
+#      strength: 80
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: 80
+#    armor: DRELL_ARMOR0
+#    standHeight: 21
+#    kneelHeight: 14
+#    value: 10
+#    deathSound: 10
+#    intelligence: 3
+#    aggression: 2
+
