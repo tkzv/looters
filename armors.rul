@@ -34,6 +34,7 @@ armors:
     spriteInv: VORCHA_INVENTORY
     # spriteFaceGroup, spriteFaceColor, spriteHairGroup, spriteHairColor, spriteUtileGroup, spriteUtileColor, spriteRankGroup, spriteRankColor
     corpseBattle: [ STR_VORCHA_CORPSE ]
+    corpseGeo: STR_VORCHA_CORPSE
     frontArmor: 4
     sideArmor:  3
     rearArmor:  2
@@ -57,6 +58,7 @@ armors:
     #spriteInv: VARREN_INVENTORY
     # spriteFaceGroup, spriteFaceColor, spriteHairGroup, spriteHairColor, spriteUtileGroup, spriteUtileColor, spriteRankGroup, spriteRankColor
     corpseBattle: [ STR_VARREN_CORPSE ]
+    corpseGeo: STR_VARREN_CORPSE
     frontArmor: 10
     sideArmor:  10
     rearArmor:  10
@@ -79,6 +81,7 @@ armors:
     drawingRoutine: 4
     spriteInv: KROGAN_INVENTORY_U
     corpseBattle: [ STR_KROGAN_U_CORPSE ]
+    corpseGeo: STR_KROGAN_U_CORPSE
     frontArmor: 5
     sideArmor:  5
     rearArmor:  5
@@ -101,6 +104,7 @@ armors:
     drawingRoutine: 4
     spriteInv: KROGAN_INVENTORY_A
     corpseBattle: [ STR_KROGAN_CORPSE ]
+    corpseGeo: STR_KROGAN_CORPSE
     frontArmor: 50
     sideArmor:  50
     rearArmor:  50
@@ -123,6 +127,7 @@ armors:
     drawingRoutine: 4
     spriteInv: BATARIAN_INVENTORY_M_U
     corpseBattle: [ STR_BATARIAN_M_U_CORPSE ]
+    corpseGeo: STR_STR_BATARIAN_M_U_CORPSE
     frontArmor: 4
     sideArmor: 3
     rearArmor: 2
@@ -146,6 +151,7 @@ armors:
     drawingRoutine: 4
     spriteInv: BATARIAN_INVENTORY_M_A
     corpseBattle: [ STR_BATARIAN_M_A_CORPSE ]
+    corpseGeo: STR_BATARIAN_M_A_CORPSE
     frontArmor: 20
     sideArmor: 20
     rearArmor: 20
@@ -168,6 +174,7 @@ armors:
     drawingRoutine: 4
     spriteInv: SALARIAN_INVENTORY_U
     corpseBattle: [ STR_SALARIAN_U_CORPSE ]
+    corpseGeo: STR_SALARIAN_U_CORPSE
     frontArmor: 2
     sideArmor: 2
     rearArmor: 2
@@ -190,6 +197,7 @@ armors:
     drawingRoutine: 4
     spriteInv: SALARIAN_INVENTORY_A
     corpseBattle: [ STR_SALARIAN_A_CORPSE ]
+    corpseGeo: STR_SALARIAN_A_CORPSE
     frontArmor: 20
     sideArmor: 20
     rearArmor: 20
@@ -212,6 +220,7 @@ armors:
     drawingRoutine: 4
     spriteInv: ASARI_INVENTORY_U
     corpseBattle: [ STR_ASARI_U_CORPSE ]
+    corpseGeo: STR_ASARI_U_CORPSE
     frontArmor: 4
     sideArmor: 3
     rearArmor: 2
@@ -234,6 +243,7 @@ armors:
     drawingRoutine: 4
     spriteInv: ASARI_INVENTORY_A
     corpseBattle: [ STR_ASARI_A_CORPSE ]
+    corpseGeo: STR_ASARI_A_CORPSE
     frontArmor: 20
     sideArmor: 20
     rearArmor: 20
@@ -256,6 +266,7 @@ armors:
     drawingRoutine: 4
     spriteInv: TURIAN_INVENTORY_M_U
     corpseBattle: [ STR_TURIAN_M_U_CORPSE ]
+    corpseGeo: STR_TURIAN_M_U_CORPSE
     frontArmor: 10
     sideArmor: 10
     rearArmor: 10
@@ -278,6 +289,7 @@ armors:
     drawingRoutine: 4
     spriteInv: TURIAN_INVENTORY_F_U
     corpseBattle: [ STR_TURIAN_F_U_CORPSE ]
+    corpseGeo: STR_TURIAN_F_U_CORPSE
     frontArmor: 10
     sideArmor: 10
     rearArmor: 10
@@ -300,6 +312,7 @@ armors:
     drawingRoutine: 4
     spriteInv: TURIAN_INVENTORY_M_A
     corpseBattle: [ STR_TURIAN_M_A_CORPSE ]
+    corpseGeo: STR_TURIAN_M_A_CORPSE
     frontArmor: 30
     sideArmor: 30
     rearArmor: 30
@@ -322,6 +335,7 @@ armors:
     drawingRoutine: 4
     spriteInv: TURIAN_INVENTORY_F_A
     corpseBattle: [ STR_TURIAN_F_A_CORPSE ]
+    corpseGeo: STR_TURIAN_F_A_CORPSE
     frontArmor: 30
     sideArmor: 30
     rearArmor: 30
@@ -339,33 +353,35 @@ armors:
       - 0.0 #Smoke
     loftempsSet: [ 4 ]
 
-  - type: DRELL_ARMOR0
-    spriteSheet: DRELL_SPRITES_M_A
-    drawingRoutine: 4
-    spriteInv: DRELL_INVENTORY_M_A
-    corpseBattle: [ STR_DRELL_M_A_CORPSE ]
-    frontArmor: 20
-    sideArmor: 20
-    rearArmor: 20
-    underArmor: 20
-    damageModifier:
-      - 1.0 #None
-      - 0.5 #AP
-      - 0.5 #Incen
-      - 0.5 #HExp
-      - 1.0 #Laser
-      - 1.0 #Plasma
-      - 0.5 #Stun
-      - 0.5 #Melee
-      - 0.5 #Acid
-      - 0.0 #Smoke
-    loftempsSet: [ 4 ]
+#  - type: DRELL_ARMOR0
+#    spriteSheet: DRELL_SPRITES_M_A
+#    drawingRoutine: 4
+#    spriteInv: DRELL_INVENTORY_M_A
+#    corpseBattle: [ STR_DRELL_M_A_CORPSE ]
+#    corpseGeo: STR_DRELL_M_A_CORPSE
+#    frontArmor: 20
+#    sideArmor: 20
+#    rearArmor: 20
+#    underArmor: 20
+#    damageModifier:
+#      - 1.0 #None
+#      - 0.5 #AP
+#      - 0.5 #Incen
+#      - 0.5 #HExp
+#      - 1.0 #Laser
+#      - 1.0 #Plasma
+#      - 0.5 #Stun
+#      - 0.5 #Melee
+#      - 0.5 #Acid
+#      - 0.0 #Smoke
+#    loftempsSet: [ 4 ]
 
   - type: QUARIAN_ARMOR0
     spriteSheet: QUARIAN_SPRITES_M_A
     drawingRoutine: 4
     spriteInv: QUARIAN_INVENTORY_M_A
     corpseBattle: [ STR_QUARIAN_M_A_CORPSE ]
+    corpseGeo: STR_QUARIAN_M_A_CORPSE
     frontArmor: 20
     sideArmor: 20
     rearArmor: 20
@@ -388,6 +404,7 @@ armors:
     drawingRoutine: 4
     spriteInv: QUARIAN_INVENTORY_F_A
     corpseBattle: [ STR_QUARIAN_F_A_CORPSE ]
+    corpseGeo: STR_QUARIAN_F_A_CORPSE
     frontArmor: 20
     sideArmor: 20
     rearArmor: 20
