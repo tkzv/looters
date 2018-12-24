@@ -255,76 +255,11 @@ items:
     #meleePower:
 
 # Corpses
-  - type: STR_VORCHA_CORPSE
-    size: 0.4
-    costSell: 10000
-    weight: 22
-    bigSprite: 45    #!!!!
-    floorSprite: 250
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 10
-    recover: true
-    armor: 20
-  - type: STR_KROGAN_A_CORPSE
-    size: 0.4
-    costSell: 10000
-    weight: 88
-    bigSprite: 45    #!!!!
-    floorSprite: 170
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 10
-    recover: true
-    armor: 50
-  - type: STR_KROGAN_U_CORPSE
-    size: 0.4
-    costSell: 10000
-    weight: 88
-    bigSprite: 45    #!!!!
-    floorSprite: 171
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 10
-    recover: true
-    armor: 50
-  - type: STR_BATARIAN_M_A_CORPSE
-    size: 0.4
-    costSell: 10000
-    weight: 44
-    bigSprite: 45    #!!!!
-    floorSprite: 112
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 11
-    recover: true
-    armor: 40
-  - type: STR_SALARIAN_A_CORPSE
-    size: 0.4
-    costSell: 10000
-    weight: 33
-    bigSprite: 45    #!!!!
-    floorSprite: 200
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 10
-    recover: true
-    armor: 40
-  - type: STR_SALARIAN_U_CORPSE
-    size: 0.4
-    costSell: 10000
-    weight: 33
-    bigSprite: 45    #!!!!
-    floorSprite: 201
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 10
-    recover: true
-    armor: 40
   - type: STR_ASARI_A_CORPSE
     size: 0.4
     costSell: 10000
-    weight: 44
+    weight: 80
+    battleType: 11
     bigSprite: 45    #!!!!
     floorSprite: 100
     invWidth: 2
@@ -335,9 +270,82 @@ items:
   - type: STR_ASARI_U_CORPSE
     size: 0.4
     costSell: 10000
-    weight: 44
+    weight: 60
+    battleType: 11
     bigSprite: 45    #!!!!
     floorSprite: 101
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    recover: true
+    armor: 20
+  - type: STR_BATARIAN_M_A_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 100
+    battleType: 11
+    bigSprite: 45    #!!!!
+    floorSprite: 112
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 11
+    recover: true
+    armor: 40
+  - type: STR_BATARIAN_M_U_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 80
+    battleType: 11
+    bigSprite: 45    #!!!!
+    floorSprite: 113
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 11
+    recover: true
+    armor: 40
+  - type: STR_KROGAN_A_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 200
+    battleType: 11
+    bigSprite: 45    #!!!!
+    floorSprite: 170
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    recover: true
+    armor: 50
+  - type: STR_KROGAN_U_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 160
+    battleType: 11
+    bigSprite: 45    #!!!!
+    floorSprite: 171
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    recover: true
+    armor: 50
+  - type: STR_SALARIAN_A_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 50
+    battleType: 11
+    bigSprite: 45    #!!!!
+    floorSprite: 200
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    recover: true
+    armor: 40
+  - type: STR_SALARIAN_U_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 40
+    battleType: 11
+    bigSprite: 45    #!!!!
+    floorSprite: 201
     invWidth: 2
     invHeight: 3
     recoveryPoints: 10
@@ -346,7 +354,8 @@ items:
   - type: STR_TURIAN_F_A_CORPSE
     size: 0.4
     costSell: 10000
-    weight: 44
+    weight: 80
+    battleType: 11
     bigSprite: 45    #!!!!
     floorSprite: 220
     invWidth: 2
@@ -357,7 +366,8 @@ items:
   - type: STR_TURIAN_F_U_CORPSE
     size: 0.4
     costSell: 10000
-    weight: 44
+    weight: 60
+    battleType: 11
     bigSprite: 45    #!!!!
     floorSprite: 221
     invWidth: 2
@@ -368,7 +378,8 @@ items:
   - type: STR_TURIAN_M_A_CORPSE
     size: 0.4
     costSell: 10000
-    weight: 44
+    weight: 100
+    battleType: 11
     bigSprite: 45    #!!!!
     floorSprite: 222
     invWidth: 2
@@ -379,7 +390,8 @@ items:
   - type: STR_TURIAN_M_U_CORPSE
     size: 0.4
     costSell: 10000
-    weight: 44
+    weight: 80
+    battleType: 11
     bigSprite: 45    #!!!!
     floorSprite: 223
     invWidth: 2
@@ -391,6 +403,7 @@ items:
 #    size: 0.4
 #    costSell: 10000
 #    weight: 44
+#    battleType: 11
 #    bigSprite: 45    #!!!!
 #    floorSprite: 132
 #    invWidth: 2
@@ -401,7 +414,8 @@ items:
   - type: STR_QUARIAN_F_A_CORPSE
     size: 0.4
     costSell: 10000
-    weight: 44
+    weight: 60
+    battleType: 11
     bigSprite: 45    #!!!!
     floorSprite: 190
     invWidth: 2
@@ -412,7 +426,8 @@ items:
   - type: STR_QUARIAN_M_A_CORPSE
     size: 0.4
     costSell: 10000
-    weight: 44
+    weight: 80
+    battleType: 11
     bigSprite: 45    #!!!!
     floorSprite: 191
     invWidth: 2
@@ -423,9 +438,22 @@ items:
   - type: STR_VARREN_CORPSE
     size: 0.4
     costSell: 10000
-    weight: 44
+    weight: 50
+    battleType: 11
     bigSprite: 45    #!!!!
     floorSprite: 230
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    recover: true
+    armor: 40
+  - type: STR_VORCHA_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 100
+    battleType: 11
+    bigSprite: 45    #!!!!
+    floorSprite: 250
     invWidth: 2
     invHeight: 3
     recoveryPoints: 10
